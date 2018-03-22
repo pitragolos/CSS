@@ -1,0 +1,322 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>News :: AlphaRatio</title>
+<meta http-equiv="X-UA-Compatible" content="chrome=1;IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+<link href="static/styles/global.css" rel="stylesheet" type="text/css" />
+<link href="blz_ico.css" title="External CSS" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body id="index">
+	<div id="wrapper">
+		<h1 class="hidden"></h1>
+
+		<div id="header">
+			<div id="logo">
+				<a href="index.php"></a>
+			</div>
+			
+			<!-- Donation bar -->
+			<div id="donation-outer">
+				<div id="donation-inner" style="width: 100%;"></div>
+			</div>
+			<div id="donation-link">
+				<a title="Donate" href="donate.php">Donations: 100%</a>
+			</div>
+			<!-- End Donation bar -->
+			
+			<div id="userinfo">
+				<ul id="userinfo_username">
+					<li>
+					<li id="nav_userinfo"
+						><a
+						href="user.php?" class="username">Alpahratio</a></li>
+					<li id="nav_useredit"
+						class="brackets"><a
+						href="user.php?action=edit&amp;user">Edit</a></li>
+					<li id="nav_upload"
+						class="brackets"><a
+						href="upload.php">Upload</a></li>
+					<li id="nav_logout" class="brackets"><a
+						href="logout.php?">Logout</a></li>
+				</ul>
+			<ul id="userinfo_major">
+			<li id="nav_invite"
+						class="brackets"><a
+						href="user.php?action=invite">Invite (4)</a></li>
+					
+				<li id="nav_vipinvite"
+							class="brackets"><a
+							href="user.php?action=invite">VipInvite</a></li>
+									<li id="nav_donate"
+						class="brackets"><a
+						href="donate.php">Donate(100%)</a></li>
+						
+				
+				</ul>
+				<ul id="userinfo_stats">
+					<li id="stats_seeding"><a
+						href="torrents.php?type=seeding&amp;user">Up</a>:
+						<span class="stat"
+						title="104.97103 GB">104.97 GB</span></li>
+					<li id="stats_leeching"><a
+						href="torrents.php?type=leeching&amp;user">Down</a>:
+						<span class="stat"
+						title="57.81075 MB">57.81 MB</span></li>
+					<li id="stats_ratio">Ratio: <span class="stat"><span class="r10" title="1,859.34839">1,859.34</span></span></li>
+			<!--li id="stats_required"><a href="rules.php?p=ratio">Required</a>: <span
+						class="stat"
+						title="0.00000">0.00</span></li-->
+					<li id="userratio"><a href="wiki.php?action=article&amp;id=44#_476005703">Ratio Boost</a>:
+					<span class="stat">1:1</span></li>
+					<li id="fl_tokens"><a href="wiki.php?action=article&amp;id=42#_1987672969">FLTokens</a>:
+						<span class="stat"><a
+						href="userhistory.php?action=token_history&amp;user">3</a></span></li>
+					<li id="hnr_tokens"><a href="wiki.php?action=article&amp;id=44#_498749081">HnRTokens</a>:
+						<span class="stat"><a
+						href="userhistory.php?action=token_history&amp;user">2</a></span></li>
+		</ul>
+		<ul id="userinfo_minor"
+					>
+					<li id="nav_inbox"
+						><a
+						onmousedown="Stats('inbox');"
+						href="inbox.php">Inbox</a></li>
+					<li id="nav_staffinbox"
+						><a
+						onmousedown="Stats('staffpm');" href="staffpm.php">Staff Inbox</a></li>
+					<li id="nav_uploaded"
+						><a
+						onmousedown="Stats('uploads');"
+						href="torrents.php?type=uploaded&amp;user">Uploads</a></li>
+					<li id="nav_bookmarks"
+						><a
+						onmousedown="Stats('bookmarks');"
+						href="bookmarks.php?type=torrents">Bookmarks</a></li>
+			<li id="nav_notifications"
+						><a
+						onmousedown="Stats('notifications');"
+						href="user.php?action=notify">RSS</a></li>
+			<li id="nav_subscriptions"
+						><a
+						onmousedown="Stats('subscriptions');"
+						href="userhistory.php?action=subscriptions"
+						>Subscriptions</a></li>
+					<li id="nav_comments"
+						><a
+						onmousedown="Stats('comments');" href="comments.php">Comments</a></li>
+					<li id="nav_friends"
+						><a
+						onmousedown="Stats('friends');" href="friends.php">Friends</a></li>
+				</ul>
+			</div>
+			<div id="menu">
+				<h4 class="hidden">Site Menu</h4>
+				<ul>
+					<li id="nav_index"
+						 class="active"><a
+						href="index.php">Home</a></li>
+					<li id="nav_torrents"
+						><a
+						href="torrents.php">Torrents</a></li>
+					<!--li id="nav_collages"
+						><a
+						href="collages.php">Collages</a></li-->
+					<li id="nav_requests"
+						><a
+						href="requests.php">Requests</a></li>
+					<li id="nav_forums"
+						><a
+						href="forums.php">Forums</a></li>
+					<!--li id="nav_irc"
+						><a
+						href="chat.php">IRC</a></li-->
+					<li id="nav_top10"
+						><a
+						href="top10.php">Top 10</a></li>
+					<!--li id="nav_rules"
+						><a
+						href="rules.php">Rules</a></li-->
+					<li id="nav_wiki"
+						><a
+						href="wiki.php">Wiki</a></li>
+					<li id="nav_staff"
+						><a
+						href="staff.php">Staff</a></li>
+					<li id="nav_seedbox"
+						><a
+						href="seedbox.php">Seedbox</a></li>
+									</ul>
+			</div>
+	<div id="searchbars">
+				<ul>
+					<li id="searchbar_torrents"><span class="hidden">Torrents: </span>
+						<form class="search_form" name="torrents" action="torrents.php"
+							method="get">
+					<input id="torrentssearch" accesskey="t" spellcheck="false"
+								onfocus="if (this.value == 'Torrents') this.value = '';"
+								onblur="if (this.value == '') this.value = 'Torrents';"
+ value="Torrents" type="text" name="searchstr"
+								size="17"  />
+						</form></li>
+					<li id="searchbar_requests"><span class="hidden">Requests: </span>
+						<form class="search_form" name="requests" action="requests.php"
+							method="get">
+							<input id="requestssearch" spellcheck="false"
+								onfocus="if (this.value == 'Requests') this.value = '';"
+								onblur="if (this.value == '') this.value = 'Requests';"
+								value="Requests" type="text" name="search" size="17" />
+						</form></li>
+					<li id="searchbar_forums"><span class="hidden">Forums: </span>
+						<form class="search_form" name="forums" action="forums.php"
+							method="get">
+							<input value="search" type="hidden" name="action" /> <input
+								id="forumssearch"
+								onfocus="if (this.value == 'Forums') this.value = '';"
+								onblur="if (this.value == '') this.value = 'Forums';"
+								value="Forums" type="text" name="search" size="17" />
+						</form></li>
+					<li id="searchbar_log"><span class="hidden">Log: </span>
+						<form class="search_form" name="log" action="log.php" method="get">
+							<input id="logsearch"
+								onfocus="if (this.value == 'Log') this.value = '';"
+								onblur="if (this.value == '') this.value = 'Log';" value="Log"
+								type="text" name="search" size="17" />
+						</form></li>
+					<li id="searchbar_users"><span class="hidden">Users: </span>
+						<form class="search_form" name="users" action="user.php"
+							method="get">
+							<input type="hidden" name="action" value="search" /> <input
+								id="userssearch"
+								onfocus="if (this.value == 'Users') this.value = '';"
+								onblur="if (this.value == '') this.value = 'Users';" value="Users"
+								type="text" name="search" size="20" />
+						</form></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+<div class="thin">
+	<div class="sidebar">
+		<div class="box">
+			<div class="head colhead_dark"><strong><a href="blog.php">Latest blog posts</a></strong></div>
+			<ul class="stats nobullet">
+				<li>
+					1. <a href="blog.php#blog3">Blog</a>
+				</li>
+			</ul>
+		</div>
+		<div class="box">
+			<div class="head colhead_dark"><strong>Stats</strong></div>
+			<ul class="stats nobullet">
+				<li>Maximum users: 99.999</li>
+				<li>Enabled users: 99,999 <a href="stats.php?action=users" class="brackets">Details</a></li>
+				<li>Users active today: 99,999 (25.01%)</li>
+				<li>Users active this week: 99,999 (48.05%)</li>
+				<li>Users active this month: 99,999 (67.65%)</li>
+				<li>Torrents: 171,628</li>
+				<!--li>Releases: 13,539</li>
+				<li>Artists: 0</li>
+				<li>"Perfect" FLACs: 0</li-->
+				<li>Requests: 9,999 (80.10% filled)</li>
+				<li>Snatches: 9,999,999</li>
+				<li>Peers: 999,999</li>
+				<li>Seeders: 999,999</li>
+				<li>Leechers: 999,999</li>
+				<li>Seeder/leecher ratio: <span class="r50" title="37.92493">37.92</span></li>
+			</ul>
+		</div>
+		<div class="box">
+			<div class="head colhead_dark"><strong>Poll [Closed]</strong></div>
+			<div class="pad">
+				<p><strong>POLL</strong></p>
+				<ul class="poll nobullet">
+					<li>User  (13.03%)</li>
+					<li class="graph">
+						<span class="left_poll"></span>
+						<span class="center_poll" style="width: 35px;"></span>
+						<span class="right_poll"></span>
+						<br />
+					</li>
+					<li>User (4.20%)</li>
+					<li class="graph">
+						<span class="left_poll"></span>
+						<span class="center_poll" style="width: 11px;"></span>
+						<span class="right_poll"></span>
+						<br />
+					</li>
+					<li>User (8.82%)</li>
+					<li class="graph">
+						<span class="left_poll"></span>
+						<span class="center_poll" style="width: 24px;"></span>
+						<span class="right_poll"></span>
+						<br />
+					</li>
+					<li>User (14.29%)</li>
+					<li class="graph">
+						<span class="left_poll"></span>
+						<span class="center_poll" style="width: 38px;"></span>
+						<span class="right_poll"></span>
+						<br />
+					</li>
+					<li>User  (4.20%)</li>
+					<li class="graph">
+						<span class="left_poll"></span>
+						<span class="center_poll" style="width: 11px;"></span>
+						<span class="right_poll"></span>
+						<br />
+					</li>
+					<li>User (52.52%)</li>
+					<li class="graph">
+						<span class="left_poll"></span>
+						<span class="center_poll" style="width: 140px;"></span>
+						<span class="right_poll"></span>
+						<br />
+					</li>
+					<li>User (2.94%)</li>
+					<li class="graph">
+						<span class="left_poll"></span>
+						<span class="center_poll" style="width: 8px;"></span>
+						<span class="right_poll"></span>
+						<br />
+					</li>
+				</ul>
+				<strong>Votes:</strong> 238<br />
+				<br /><strong>Topic:</strong> <a href="forums.php?">Visit</a>
+			</div>
+		</div>
+	</div>
+	<div class="main_column">
+
+
+
+		<div id="more_news" class="box">
+			<div class="head">
+				<em><span><a href="#" onclick="news_ajax(event, 3, 5, 0); return false;">Click to load more news<noscript> (requires JavaScript)</noscript></a>.</span> To browse old news posts, <a href="forums.php?action=viewforum&amp;forumid=5">click here</a>.</em>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div id="footer">
+	<br /><br />
+	
+	</div>
+
+</div>
+<div id="lightbox" class="lightbox hidden"></div>
+<div id="curtain" class="curtain hidden"></div>
+
+<!-- Extra divs, for stylesheet developers to add imagery -->
+<div id="extra1"><span></span></div>
+<div id="extra2"><span></span></div>
+<div id="extra3"><span></span></div>
+<div id="extra4"><span></span></div>
+<div id="extra5"><span></span></div>
+<div id="extra6"><span></span></div>
+</body>
+</html>

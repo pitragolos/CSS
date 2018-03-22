@@ -1,0 +1,30 @@
+/* We're going to opt for the category icon method for now, tags_* is also available */
+
+.cats_tvsd { width: 70px; height: 40px; background: url('images/categories/tvsd.png') no-repeat center center; }
+.cats_tvhd { width: 70px; height: 40px; background: url('images/categories/tvhd.png') no-repeat center center; } 
+.cats_tvdvdrip { width: 70px; height: 40px; background: url('images/categories/tvdvdrip.png') no-repeat center center; } 
+.cats_tvpacksd { width: 70px; height: 40px; background: url('images/categories/tvpacksd.png') no-repeat center center; } 
+.cats_tvpackhd { width: 70px; height: 40px; background: url('images/categories/tvpackhd.png') no-repeat center center; }
+
+.cats_moviesd { width: 70px; height: 40px; background: url('images/categories/moviesd.png') no-repeat center center; }
+.cats_moviehd { width: 70px; height: 40px; background: url('images/categories/moviehd.png') no-repeat center center; }
+.cats_moviepacksd { width: 70px; height: 40px; background: url('images/categories/moviepacksd.png') no-repeat center center; }
+.cats_moviepackhd { width: 70px; height: 40px; background: url('images/categories/moviepackhd.png') no-repeat center center; }
+.cats_moviexxx { width: 70px; height: 40px; background: url('images/categories/moviexxx.png') no-repeat center center; }
+
+.cats_mvid { width: 70px; height: 40px; background: url('images/categories/mvid.png') no-repeat center center; }
+.cats_gamespc { width: 70px; height: 40px; background: url('images/categories/gamespc.png') no-repeat center center; }
+.cats_gamesxbox { width: 70px; height: 40px; background: url('images/categories/gamesxbox.png') no-repeat center center; }
+.cats_gamesps3 { width: 70px; height: 40px; background: url('images/categories/gamesps3.png') no-repeat center center; }
+.cats_gameswii { width: 70px; height: 40px; background: url('images/categories/gameswii.png') no-repeat center center; }
+
+.cats_appspc { width: 70px; height: 40px; background: url('images/categories/appspc.png') no-repeat center center; }
+.cats_appsmac { width: 70px; height: 40px; background: url('images/categories/appsmac.png') no-repeat center center; }
+.cats_appslinux { width: 70px; height: 40px; background: url('images/categories/appslinux.png') no-repeat center center; }
+.cats_appsmobile { width: 70px; height: 40px; background: url('images/categories/appsmobile.png') no-repeat center center; }
+
+.cats_0dayxxx { width: 70px; height: 40px; background: url('images/categories/0dayxxx.png') no-repeat center center; }
+.cats_ebook { width: 70px; height: 40px; background: url('images/categories/ebook.png') no-repeat center center; }
+.cats_audiobook { width: 70px; height: 40px; background: url('images/categories/audiobook.png') no-repeat center center; }
+.cats_music { width: 70px; height: 40px; background: url('images/music.png') no-repeat center center; }
+.cats_misc { width: 70px; height: 40px; background: url('images/categories/misc.png') no-repeat center center; }
