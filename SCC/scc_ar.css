@@ -1,7 +1,7 @@
 /* Layout (Torrents page) */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
-@import url('https://cdn.rawgit.com/pitragolos/CSS/9812ff4a/SCC/cats.css');
+@import url('cats.css');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 /* Global */
 
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	background: #2a2a2a url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/bg.gif') repeat fixed;
+	background: #2a2a2a url('images/bg.gif') repeat fixed;
     color: #fff;
     font-family: verdana, arial, tahoma, helvetica, sans-serif;
     font-size: 8pt;
@@ -262,7 +262,7 @@ ul.thin li {
 	width: 220px;
 	display: block;
 	position: relative;
-	background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/arlogo.svg') no-repeat;
+	background: url('images/arlogo.svg') no-repeat;
 }
 
 #logo a:hover {
@@ -304,7 +304,7 @@ ul.thin li {
 
 
 #menu {
-	background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/menubox.png') no-repeat !important;
+	background: url('images/menubox.png') no-repeat !important;
 	height: 52px;
 	margin: 0px 0px 0px -18px;
 	position: relative;
@@ -339,7 +339,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 16px;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/userinfo/friends.svg') no-repeat center center;
+    background: url('images/userinfo/friends.svg') no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -349,7 +349,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 16px;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/userinfo/inbox.svg') no-repeat center center;
+    background: url('images/userinfo/inbox.svg') no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -359,7 +359,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 16px;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/userinfo/staff_box.svg') no-repeat center center;
+    background: url('images/userinfo/staff_box.svg') no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -369,7 +369,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 16px;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/userinfo/rss.svg') no-repeat center center;
+    background: url('images/userinfo/rss.svg') no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -379,7 +379,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 16px;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/userinfo/bookmark.svg') no-repeat center center;
+    background: url('images/userinfo/bookmark.svg') no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -389,7 +389,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 53px;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/userinfo/subscriptions.svg') no-repeat center center;
+    background: url('images/userinfo/subscriptions.svg') no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -399,7 +399,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 11px;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/userinfo/comments.svg') no-repeat center center;
+    background: url('images/userinfo/comments.svg') no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -410,7 +410,7 @@ ul.thin li {
     display: inline-block;
     height: 9px;
     width: 8px;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/userinfo/up.png') no-repeat center center;
+    background: url('images/userinfo/up.png') no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -420,7 +420,7 @@ ul.thin li {
     display: inline-block;
     height: 9px;
     width: 8px;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/userinfo/down.png') no-repeat center center;
+    background: url('images/userinfo/down.png') no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -958,7 +958,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 #index .sidebar .head {
 	position: relative;
     border-bottom: 0;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/sidebar.png') no-repeat !important;
+    background: url('images/sidebar.png') no-repeat !important;
     margin: 0px -12px 0px -6px;
 	top: -1px;
     height: 20px;
@@ -967,7 +967,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 }
 #index .main_column .head {
     position: relative;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/title.png') no-repeat !important;
+    background: url('images/title.png') no-repeat !important;
     height: 20px;
     margin: 0 0 0 -6px;
     border-bottom: 0;
@@ -977,7 +977,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 #user .sidebar .head {
 	position: relative;
     border-bottom: 0;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/sidebar.png') no-repeat !important;
+    background: url('images/sidebar.png') no-repeat !important;
     margin: 0px -12px 0px -6px;
 	top: -1px;
     height: 20px;
@@ -986,7 +986,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 }
 #user .main_column .head {
     position: relative;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/title.png') no-repeat !important;
+    background: url('images/title.png') no-repeat !important;
     height: 20px;
     margin: 0 0 0 -6px;
     border-bottom: 0;
@@ -995,7 +995,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 
 .sidebar .head {
 	position: relative;
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/title.png') no-repeat !important;
+    background: url('images/title.png') no-repeat !important;
     height: 20px;
     margin: 0 0 0 -6px;
     border-bottom: 0;
@@ -1212,7 +1212,7 @@ td.big_info span {
 
 /* Layout (Forums) */
 
-.last_read {width: 15px; height: 15px; background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/forumicons/go_last_read.svg') no-repeat center center; margin-left: 5px;}
+.last_read {width: 15px; height: 15px; background: url('images/forumicons/go_last_read.svg') no-repeat center center; margin-left: 5px;}
 .last_read a { border: none; width: 100%; height: 100%; display: block; }
 .last_read a:hover { border: none; }
 
@@ -1230,11 +1230,11 @@ td.big_info span {
 }
 
 .read, .read_locked, .read_sticky, .read_locked_sticky {
-    background: url("https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/forumicons/read.svg") no-repeat;
+    background: url("images/forumicons/read.svg") no-repeat;
 }
 
 .unread, .unread_locked, .unread_sticky, .unread_locked_sticky {
-    background: url("https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCC/images/forumicons/unread.svg") no-repeat;
+    background: url("images/forumicons/unread.svg") no-repeat;
 }
 
 td.read_locked:before {

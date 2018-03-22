@@ -166,13 +166,13 @@ ul.thin li {
 /* Layout (Every page) */
 
 #header {
-	background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/top.png') no-repeat;
+	background: url('images/top.png') no-repeat;
 	height: 167px;
 	width: 1022px;
 }
 
 #content {
-	background: #405a69 url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/main_content.png') repeat-y;
+	background: #405a69 url('images/main_content.png') repeat-y;
 	width: 1022px;
 	overflow: auto;
 	padding-top: 30px;
@@ -215,7 +215,7 @@ ul.thin li {
 #footer {
 	padding: 1em 0;
 	color: #fff;
-	background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/footer.png') no-repeat;
+	background: url('images/footer.png') no-repeat;
 	height: 72px;
 	width: 1023px;
 }
@@ -308,7 +308,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 16px;
-    background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/userinfo/friends.svg) no-repeat center center;
+    background: url(images/userinfo/friends.svg) no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -318,7 +318,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 16px;
-    background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/userinfo/inbox.svg) no-repeat center center;
+    background: url(images/userinfo/inbox.svg) no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -338,7 +338,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 16px;
-    background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/userinfo/rss.svg) no-repeat center center;
+    background: url(images/userinfo/rss.svg) no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -348,7 +348,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 16px;
-    background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/userinfo/bookmark.svg) no-repeat center center;
+    background: url(images/userinfo/bookmark.svg) no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -358,7 +358,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 53px;
-    background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/userinfo/subscriptions.svg) no-repeat center center;
+    background: url(images/userinfo/subscriptions.svg) no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -368,7 +368,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 11px;
-    background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/userinfo/comments.svg) no-repeat center center;
+    background: url(images/userinfo/comments.svg) no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -379,7 +379,7 @@ ul.thin li {
     display: inline-block;
     height: 9px;
     width: 8px;
-    background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/userinfo/up.png) no-repeat center center;
+    background: url(images/userinfo/up.png) no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -389,7 +389,7 @@ ul.thin li {
     display: inline-block;
     height: 9px;
     width: 8px;
-    background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/userinfo/down.png) no-repeat center center;
+    background: url(images/userinfo/down.png) no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
@@ -1158,18 +1158,18 @@ td.big_info span {
 
 /* Layout (Forums) */
 
-.last_read {width: 15px; height: 15px; background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/forumicons/go_last_read.svg') no-repeat center center; margin-left: 5px;}
+.last_read {width: 15px; height: 15px; background: url('images/forumicons/go_last_read.svg') no-repeat center center; margin-left: 5px;}
 .last_read a { border: none; width: 100%; height: 100%; display: block; }
 .last_read a:hover { border: none; }
 
-.unread_locked_sticky {background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/forumicons/locked_unread.png') no-repeat center center;}
-.read_locked_sticky {background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/forumicons/locked_read.png') no-repeat center center;}
-.read_sticky {background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/forumicons/read.png') no-repeat center center;}
-.unread_sticky {background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/forumicons/unread.png') no-repeat center center;}
-.unread_locked {background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/forumicons/locked_unread.png') no-repeat center center;}
-.read_locked {background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/forumicons/locked_read.png') no-repeat center center;}
-.unread {background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/forumicons/unread.png') no-repeat center center;}
-.read {background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/forumicons/read.png') no-repeat center center;}
+.unread_locked_sticky {background: url(images/forumicons/locked_unread.png') no-repeat center center;}
+.read_locked_sticky {background: url('images/forumicons/locked_read.png') no-repeat center center;}
+.read_sticky {background: url('images/forumicons/read.png') no-repeat center center;}
+.unread_sticky {background: url('images/forumicons/unread.png') no-repeat center center;}
+.unread_locked {background: url(images/forumicons/locked_unread.png') no-repeat center center;}
+.read_locked {background: url('images/forumicons/locked_read.png') no-repeat center center;}
+.unread {background: url('images/forumicons/unread.png') no-repeat center center;}
+.read {background: url('images/forumicons/read.png') no-repeat center center;}
 .read, .unread, .read_locked, .unread_locked, .read_sticky,.unread_sticky, .unread_locked_sticky,.read_locked_sticky {
     width: 35px;
     height: 36px;
@@ -1443,7 +1443,7 @@ outline: 0;
 
 #ft_container > table.layout.cat_list.ft_cat_list:before, #requests table.layout.cat_list:before {
     content: " ";
-    background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/browse_top.png') no-repeat center center;
+    background: url('images/browse_top.png') no-repeat center center;
     width: 776px;
     height: 52px;
     display: block;
@@ -1456,7 +1456,7 @@ outline: 0;
 
 #ft_container > table.layout.cat_list.ft_cat_list:after, #requests table.layout.cat_list:after {
 	content: " ";
-    background: url(https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/SCT/images/browse_bottom.png) no-repeat;
+    background: url(images/browse_bottom.png) no-repeat;
     width: 776px;
     height: 52px;
     /* display: block; */
