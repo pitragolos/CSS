@@ -6,34 +6,34 @@
 }
 
 /* We're going to opt for the category icon method for now, tags_* is also available */
-.cats_tvsd { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/sdtv.png'); }
-.cats_tvhd { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/hdtv.png'); } 
-.cats_tvdvdrip { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/tv_dvdrip.png'); } 
-.cats_tvpacksd { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/tv_packs.png'); } 
-.cats_tvpackhd { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/tv_packs.png'); }
+.cats_tvsd { background: url('pic/cats/sdtv.png'); }
+.cats_tvhd { background: url('pic/cats/hdtv.png'); } 
+.cats_tvdvdrip { background: url('pic/cats/tv_dvdrip.png'); } 
+.cats_tvpacksd { background: url('pic/cats/tv_packs.png'); } 
+.cats_tvpackhd { background: url('pic/cats/tv_packs.png'); }
 
-.cats_moviesd { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/sdmovies.png'); }
-.cats_moviehd { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/hdmovies.png'); }
-.cats_moviepacksd { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/movies_packs.png'); }
-.cats_moviepackhd { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/movies_packs.png'); }
-.cats_moviexxx { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/xxx_hd.png'); }
+.cats_moviesd { background: url('pic/cats/sdmovies.png'); }
+.cats_moviehd { background: url('pic/cats/hdmovies.png'); }
+.cats_moviepacksd { background: url('pic/cats/movies_packs.png'); }
+.cats_moviepackhd { background: url('pic/cats/movies_packs.png'); }
+.cats_moviexxx { background: url('pic/cats/xxx_hd.png'); }
 
-.cats_mvid { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/music_videos.png'); }
-.cats_gamespc { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/games_pc.png'); }
-.cats_gamesxbox { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/games_xbox.png'); }
-.cats_gamesps3 { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/games_ps3.png'); }
-.cats_gameswii { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/games_wii.png'); }
+.cats_mvid { background: url('pic/cats/music_videos.png'); }
+.cats_gamespc { background: url('pic/cats/games_pc.png'); }
+.cats_gamesxbox { background: url('pic/cats/games_xbox.png'); }
+.cats_gamesps3 { background: url('pic/cats/games_ps3.png'); }
+.cats_gameswii { background: url('pic/cats/games_wii.png'); }
 
-.cats_appspc { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/appz.png'); }
-.cats_appsmac { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/appz.png'); }
-.cats_appslinux { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/appz.png'); }
-.cats_appsmobile { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/appz.png'); }
+.cats_appspc { background: url('pic/cats/appz.png'); }
+.cats_appsmac { background: url('pic/cats/appz.png'); }
+.cats_appslinux { background: url('pic/cats/appz.png'); }
+.cats_appsmobile { background: url('pic/cats/appz.png'); }
 
-.cats_0dayxxx { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/xxx_xvid.png'); }
-.cats_ebook { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/misc.png'); }
-.cats_audiobook { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/misc.png'); }
-.cats_misc { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/misc.png'); }
-.cats_music { background: url('https://cdn.rawgit.com/pitragolos/CSS/6c88cb6b/Xmas/pic/cats/music.png'); }
+.cats_0dayxxx { background: url('pic/cats/xxx_xvid.png'); }
+.cats_ebook { background: url('pic/cats/misc.png'); }
+.cats_audiobook { background: url('pic/cats/misc.png'); }
+.cats_misc { background: url('pic/cats/misc.png'); }
+.cats_music { background: url('pic/cats/music.png'); }
 
 
 

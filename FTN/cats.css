@@ -6,34 +6,34 @@
 }
 
 /* We're going to opt for the category icon method for now, tags_* is also available */
-.cats_tvsd { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/sdtv.png'); }
-.cats_tvhd { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/hdtv.png'); } 
-.cats_tvdvdrip { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/tv_dvdrip.png'); } 
-.cats_tvpacksd { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/tv_packs.png'); } 
-.cats_tvpackhd { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/tv_packs.png'); }
+.cats_tvsd { background: url('images/categories/sdtv.png'); }
+.cats_tvhd { background: url('images/categories/hdtv.png'); } 
+.cats_tvdvdrip { background: url('images/categories/tv_dvdrip.png'); } 
+.cats_tvpacksd { background: url('images/categories/tv_packs.png'); } 
+.cats_tvpackhd { background: url('images/categories/tv_packs.png'); }
 
-.cats_moviesd { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/sdmovies.png'); }
-.cats_moviehd { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/hdmovies.png'); }
-.cats_moviepacksd { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/movies_packs.png'); }
-.cats_moviepackhd { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/movies_packs.png'); }
-.cats_moviexxx { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/xxx_hd.png'); }
+.cats_moviesd { background: url('images/categories/sdmovies.png'); }
+.cats_moviehd { background: url('images/categories/hdmovies.png'); }
+.cats_moviepacksd { background: url('images/categories/movies_packs.png'); }
+.cats_moviepackhd { background: url('images/categories/movies_packs.png'); }
+.cats_moviexxx { background: url('images/categories/xxx_hd.png'); }
 
-.cats_mvid { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/music_videos.png'); }
-.cats_gamespc { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/games_pc.png'); }
-.cats_gamesxbox { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/games_xbox.png'); }
-.cats_gamesps3 { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/games_ps3.png'); }
-.cats_gameswii { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/games_wii.png'); }
+.cats_mvid { background: url('images/categories/music_videos.png'); }
+.cats_gamespc { background: url('images/categories/games_pc.png'); }
+.cats_gamesxbox { background: url('images/categories/games_xbox.png'); }
+.cats_gamesps3 { background: url('images/categories/games_ps3.png'); }
+.cats_gameswii { background: url('images/categories/games_wii.png'); }
 
-.cats_appspc { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/apps.png'); }
-.cats_appsmac { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/apps.png'); }
-.cats_appslinux { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/apps.png'); }
-.cats_appsmobile { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/apps.png'); }
+.cats_appspc { background: url('images/categories/apps.png'); }
+.cats_appsmac { background: url('images/categories/apps.png'); }
+.cats_appslinux { background: url('images/categories/apps.png'); }
+.cats_appsmobile { background: url('images/categories/apps.png'); }
 
-.cats_0dayxxx { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/0day_xxx.png'); }
-.cats_ebook { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/misc.png'); }
-.cats_audiobook { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/misc.png'); }
-.cats_misc { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/misc.png'); }
-.cats_music { background: url('https://cdn.rawgit.com/pitragolos/CSS/df6531e0/FTN/images/categories/music.png'); }
+.cats_0dayxxx { background: url('images/categories/0day_xxx.png'); }
+.cats_ebook { background: url('images/categories/misc.png'); }
+.cats_audiobook { background: url('images/categories/misc.png'); }
+.cats_misc { background: url('images/categories/misc.png'); }
+.cats_music { background: url('images/categories/music.png'); }
 
 
 
