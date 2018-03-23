@@ -1,3 +1,2 @@
-Removed Rawgit links
-<br>
-...
+Removed rawgit links and things
+
