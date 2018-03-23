@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" viewBox="400 90 560 560">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+]]>
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-140.9838867" y1="486.6601563" x2="-140.983902" y2="18.1635742" gradientTransform="matrix(1.1953125 0 0 -1.1953125 848.5205078 671.7109375)">
+	<stop  offset="0" style="stop-color:#0A9A15"/>
+	<stop  offset="0.2892" style="stop-color:#0E9118"/>
+	<stop  offset="0.7685" style="stop-color:#1A7720"/>
+	<stop  offset="0.9944" style="stop-color:#206925"/>
+</linearGradient>
+<rect x="400" y="90" class="st0" width="560" height="560"/>
+<path class="st1" d="M541.0361328,182.3637695v375.3286133h278.0986328V182.3637695H541.0361328z M704.9882813,547.9248047
+	h-49.6367188c-2.0654297,0-3.7382813-1.6708984-3.7382813-3.7353516c0-2.0683594,1.6748047-3.7412109,3.7382813-3.7412109
+	h49.6367188c2.0664063,0,3.7382813,1.6748047,3.7382813,3.7412109
+	C708.7265625,546.2539063,707.0546875,547.9248047,704.9882813,547.9248047z M806.2998047,528.8896484H554.0410156V201.1567383
+	h252.2587891V528.8896484z"/>
+</svg>
