@@ -1284,11 +1284,9 @@ td.unread_sticky:after {
     position: absolute;
     font-family: Fontawesome;
     text-align: center;
-    margin: 26px auto auto 37px;
+    margin: 26px auto auto 12px;
     color: #df485e;
     }
-	
-
 
 td.unread_locked_sticky:before {
     content:"\f023";
@@ -1298,6 +1296,7 @@ td.unread_locked_sticky:before {
     margin: 26px auto auto 0px;
     color: #df485e;
     }
+	
 td.unread_locked_sticky:after {
     content:"\f249";
     position: absolute;
