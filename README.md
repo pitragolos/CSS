@@ -1,3 +1,3 @@
-Needed to delete repository to remove rawgit links
+Needed to delete repository to remove cdn.rawgit links
 
 Links updated
