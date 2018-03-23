@@ -907,7 +907,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 }
 
 .forum_post a {
-	color: #de3665;
+	color: #3665de;
     font-weight: bold; 
 }
 
@@ -1334,17 +1334,17 @@ blockquote {
 
 blockquote {
     color: #fff;
-    border-left: 1px solid #de3665;
+    border-left: 1px solid #3665de;
     background: none;
 }
 
 blockquote a, blockquote.quotetext a {
-    color: #de3665;
+    color: #3665de;
     font-weight: bold;
 }
 
 strong.quoteheader{
-	color: #de3665;
+	color: #3665de;
 }
 
 /* Layout (Inbox) */
