@@ -8,7 +8,7 @@ Blue https://pitragolos.github.io/CSS/SCC/blue/scc_ar.css
 Preview
 https://pitragolos.github.io/CSS/SCC/blue/
 <br><br>
-Green https://pitragolos.github.io/CSS/SCC/green/scc_ar.css
+~Green https://pitragolos.github.io/CSS/SCC/green/scc_ar.css
 <br>
 Preview
-https://pitragolos.github.io/CSS/SCC/green/
+https://pitragolos.github.io/CSS/SCC/green/~
