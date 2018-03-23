@@ -328,7 +328,7 @@ ul.thin li {
 	display: inline-block;
     height: 11px;
     width: 16px;
-    background: url(https://cdn.rawgit.com/pitragolos/CSS/690fa0d7/SCT/images/userinfo/staff_box.svg) no-repeat center center;
+    background: url(images/userinfo/staff_box.svg) no-repeat center center;
     text-indent: -9999px;
     overflow: hidden;
     position: relative;
