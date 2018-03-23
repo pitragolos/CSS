@@ -1170,14 +1170,15 @@ strong.torrent_label.tl_notice {
 }
 strong.torrent_label.tl_notice {
     background: #df485e;
-	border: 0px #ff5f57 solid;
+	border: 0;
     padding: 1px 3px;
     border-radius: .145em;
     color: #fff;
     font-weight: 400;
 }
 strong.torrent_label.tl_free {
-    background: #318e39;
+    background: #df485e;
+	border: 0;
     padding: 1px 3px;
     border-radius: .145em;
     color: #fff;
@@ -1185,7 +1186,8 @@ strong.torrent_label.tl_free {
 }
 
 strong.torrent_label.tl_snatched {
-    background: #318e39;
+    background: #df485e;
+	border: 0;
     padding: 1px 3px;
     border-radius: .145em;
     color: #fff;
@@ -1216,12 +1218,6 @@ td.big_info span {
 .last_read a { border: none; width: 100%; height: 100%; display: block; }
 .last_read a:hover { border: none; }
 
-/*.unread_locked_sticky,.read_locked_sticky {background: url(images/locked_sticky.png) no-repeat center center;}
-.read_sticky,.unread_sticky{background: url(images/sticky.png) no-repeat center center;}
-.unread_locked {background: url(images/locked_unread.png) no-repeat center center;}
-.read_locked {background: url(images/locked_read.png) no-repeat center center;}
-.unread{background: url(images/unread.png) no-repeat center center;}
-.read{background: url(images/read.png) no-repeat center center;}*/
 .read, .unread, .read_locked, .unread_locked, .read_sticky,.unread_sticky, .unread_locked_sticky,.read_locked_sticky {
     width: 47px;
     height: 39px;
