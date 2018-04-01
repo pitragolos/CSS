@@ -4,4 +4,4 @@ https://pitragolos.github.io/CSS/FTN/ftn.css
 <br><br>
 Preview
 <br>
-https://pitragolos.github.io/CSS/FTN
+![Preview](https://pitragolos.github.io/CSS/FTN/FTN.png)

@@ -3,3 +3,4 @@ https://pitragolos.github.io/CSS/SCT/sct.css
 Preview
 <br>
 https://pitragolos.github.io/CSS/SCT
+![Preview](https://pitragolos.github.io/CSS/SCT/SCT.png)
