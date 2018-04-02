@@ -1,0 +1,278 @@
+.cats_tvsd,.cats_tvhd,.cats_tvdvdrip,.cats_tvpacksd,.cats_tvpackhd,.cats_moviesd,.cats_moviehd,.cats_moviepacksd,.cats_moviepackhd,.cats_moviexxx,.cats_mvid,.cats_gamespc,.cats_gamesxbox,.cats_gamesps3,.cats_gameswii,.cats_appspc,.cats_appsmac,.cats_appslinux,.cats_appsmobile,.cats_0dayxxx,.cats_ebook,.cats_audiobook,.cats_music,.cats_misc {
+    /*display: block;*/
+    width: 35px;
+    height: 35px;
+}
+
+.cats_tvsd { background: url('categories/sdtv.svg') no-repeat center; }
+.cats_tvhd { background: url('categories/hdtv.svg') no-repeat center; } 
+.cats_tvdvdrip { background: url('categories/tvdvd.svg') no-repeat center; }
+.cats_tvpacksd { background: url('categories/sdtvpack.svg') no-repeat center; } 
+.cats_tvpackhd { background: url('categories/hdtv_pack.svg') no-repeat center; }
+
+.cats_moviesd { background: url('categories/sdmovies.svg') no-repeat center; }
+.cats_moviehd { background: url('categories/hdmovies.svg') no-repeat center; }
+.cats_moviepacksd { background: url('categories/sd_movie_pack.svg') no-repeat center; }
+.cats_moviepackhd { background: url('categories/hd_movie_pack.svg') no-repeat center; }
+.cats_moviexxx { background: url('categories/xxxmovies.svg') no-repeat center; }
+
+.cats_mvid { background: url('categories/mvid.svg') no-repeat center; }
+.cats_gamespc { background: url('categories/pcgames.svg') no-repeat center; }
+.cats_gamesxbox { background: url('categories/xbgames.svg') no-repeat center; }
+.cats_gamesps3 { background: url('categories/psgames.svg') no-repeat center; }
+.cats_gameswii { background: url('categories/wiigames.svg') no-repeat center; }
+
+.cats_appspc { background: url('categories/windows.svg') no-repeat center; }
+.cats_appsmac { background: url('categories/mac.svg') no-repeat center; }
+.cats_appslinux { background: url('categories/linux.svg') no-repeat center; }
+.cats_appsmobile { background: url('categories/mobile.svg') no-repeat center; }
+
+.cats_0dayxxx { background: url('categories/0dayxxx.svg') no-repeat center; }
+.cats_ebook { background: url('categories/books.svg') no-repeat center; }
+.cats_audiobook { background: url('categories/audiobooks.svg') no-repeat center; }
+.cats_misc { background: url('categories/misc.svg') no-repeat center; }
+.cats_music { background: url('categories/music.svg') no-repeat center; }
+
+
+
+
+/*--------------*/
+img[alt="TvHD"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/hdtv.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="TvSD"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/sdtv.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="TvDVDRip"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/tvdvd.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="TvPackSD"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/sdtvpack.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="TvPackHD"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/hdtv_pack.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="MovieSD"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/sdmovies.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="MovieHD"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/hdmovies.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="MoviePackSD"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/sd_movie_pack.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="MoviePackHD"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/hd_movie_pack.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="MovieXXX"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/xxxmovies.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="GamesPC"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/pcgames.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="GamesxBox"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/xbgames.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="GamesPS3"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/psgames.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="GamesWii"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/wiigames.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="AppsPC"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/windows.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="AppsMAC"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/mac.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="AppsLinux"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/linux.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="AppsMobile"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/mobile.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="0dayXXX"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/0dayxxx.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="eBook"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/books.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="AudioBook"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/audiobooks.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="Misc"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/music.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="Music"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/music.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+img[alt="MviD"] {
+	display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('categories/mvid.svg') no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
