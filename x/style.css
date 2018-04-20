@@ -1525,16 +1525,6 @@ input[type="radio"] + label:before {
   box-shadow: inset 0 0 0 18px #464a58;
 }
 input[type="radio"] + label:after {
-  /*top: 49%;
-  left: 9px;
-  width: 54px;
-  height: 54px;
-  opacity: 0;
-  background: rgba(255, 255, 255, 0.3);
-  -moz-transform: translate(-50%, -50%) scale(0);
-  -ms-transform: translate(-50%, -50%) scale(0);
-  -webkit-transform: translate(-50%, -50%) scale(0);
-  transform: translate(-50%, -50%) scale(0);*/
   top: 8px;
     left: 7px;
     width: 18px;
