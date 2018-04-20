@@ -34,9 +34,7 @@
 .cats_music { background: url('categories/music.svg') no-repeat center; }
 
 
-
-
-/*--------------*/
+/*-----Box-Art---------*/
 img[alt="TvHD"] {
 	display: block;
     -moz-box-sizing: border-box;
@@ -81,7 +79,7 @@ img[alt="TvPackHD"] {
 	display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url('categories/hdtv_pack.svg') no-repeat;
+    background: url('categories/tvdvd.svg') no-repeat;
     width: 200px;
     height: 200px;
     padding-left: 200px;
@@ -277,50 +275,7 @@ img[alt="MviD"] {
     padding-left: 200px;
 }
 
-
-
-
-
-
-
-.cats_tvsd,.cats_tvhd,.cats_tvdvdrip,.cats_tvpacksd,.cats_tvpackhd,.cats_moviesd,.cats_moviehd,.cats_moviepacksd,.cats_moviepackhd,.cats_moviexxx,.cats_mvid,.cats_gamespc,.cats_gamesxbox,.cats_gamesps3,.cats_gameswii,.cats_appspc,.cats_appsmac,.cats_appslinux,.cats_appsmobile,.cats_0dayxxx,.cats_ebook,.cats_audiobook,.cats_music,.cats_misc {
-    /*display: block;*/
-    width: 35px;
-    height: 35px;
-}
-
-/* We're going to opt for the category icon method for now, tags_* is also available */
-.cats_tvsd { background: url('https://dl.dropbox.com/s/qyo09qxd9o29ms9/sdtv.svg') no-repeat center; }
-.cats_tvhd { background: url('https://dl.dropbox.com/s/inzknvz13qvzpfd/hdtv.svg') no-repeat center; } 
-.cats_tvdvdrip { background: url('https://dl.dropbox.com/s/e20buhxzab65bo6/tvdvd.svg') no-repeat center; }
-.cats_tvpacksd { background: url('https://dl.dropbox.com/s/miyrpey66uuf1i1/sdtvpack.svg') no-repeat center; } 
-.cats_tvpackhd { background: url('https://dl.dropbox.com/s/0t2wquv3fr6ivgs/hdtv_pack.svg') no-repeat center; }
-
-.cats_moviesd { background: url('https://dl.dropbox.com/s/orxipmikhmctonx/sdmovies.svg') no-repeat center; }
-.cats_moviehd { background: url('https://dl.dropbox.com/s/yn542nxitgviw1k/hdmovies.svg') no-repeat center; }
-.cats_moviepacksd { background: url('https://dl.dropbox.com/s/cig77epbcitqe8z/sd_movie_pack.svg') no-repeat center; }
-.cats_moviepackhd { background: url('https://dl.dropbox.com/s/3fwb1yjcvms7y18/hd_movie_pack.svg') no-repeat center; }
-.cats_moviexxx { background: url('https://dl.dropbox.com/s/6sykmzv3de37ng6/xxxmovies.svg') no-repeat center; }
-
-.cats_mvid { background: url('https://dl.dropbox.com/s/fvazs215gzdr7vd/mvid.svg') no-repeat center; }
-.cats_gamespc { background: url('https://dl.dropbox.com/s/yxslltjv3fp99be/pcgames.svg') no-repeat center; }
-.cats_gamesxbox { background: url('https://dl.dropbox.com/s/ndagptrmam6z6he/xbgames.svg') no-repeat center; }
-.cats_gamesps3 { background: url('https://dl.dropbox.com/s/vnl5i9rb962hz12/psgames.svg') no-repeat center; }
-.cats_gameswii { background: url('https://dl.dropbox.com/s/tuul8jhozb7y7e1/wiigames.svg') no-repeat center; }
-
-.cats_appspc { background: url('https://dl.dropbox.com/s/3kynx6apv4mt0y5/windows.svg') no-repeat center; }
-.cats_appsmac { background: url('https://dl.dropbox.com/s/nca3vu4vw6y936i/mac.svg') no-repeat center; }
-.cats_appslinux { background: url('https://dl.dropbox.com/s/7s4v5rrpx7lz6ql/linux.svg') no-repeat center; }
-.cats_appsmobile { background: url('https://dl.dropbox.com/s/el67t6l8znyje49/mobile.svg') no-repeat center; }
-
-.cats_0dayxxx { background: url('https://dl.dropbox.com/s/xa94u0bd26iefah/0dayxxx.svg') no-repeat center; }
-.cats_ebook { background: url('https://dl.dropbox.com/s/trdp67qrb22dijw/books.svg') no-repeat center; }
-.cats_audiobook { background: url('https://dl.dropbox.com/s/35f2q8hnlmcgh27/audiobooks.svg') no-repeat center; }
-.cats_misc { background: url('https://dl.dropbox.com/s/bwrkw6itb51dokr/misc.svg') no-repeat center; }
-.cats_music { background: url('https://dl.dropbox.com/s/1i682govxkptdh0/music.svg') no-repeat center; }
-
-
-/* WIP */
+/*  category icons WIP */
 
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(n+1) > label a,
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(n+1) > label > a,
@@ -345,92 +300,126 @@ img[alt="MviD"] {
 }
 
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(1) > label a:after {
+
     background: url('categories/sdtv.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(2) > label > a:after {
     background: url('categories/hdtv.svg') no-repeat center center;
 }
+
+table.layout.cat_list > tbody > tr:nth-child(1) > td:nth-child(2) > label {
+    
+}
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(3) > label > a:after {
+
     background: url('categories/tvdvd.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(4) > label > a:after {
+
     background: url('categories/sdtvpack.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(5) > label > a:after {
+
     background: url('categories/hdtv_pack.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(6) > label > a:after {
 
     background: url('categories/sdmovies.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(7) > label > a:after {
 
     background: url('categories/hdmovies.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(1) > label > a:after{
 
     background: url('categories/sd_movie_pack.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(2) > label > a:after{
 
     background: url('categories/hd_movie_pack.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(3) > label > a:after{
 
     background: url('categories/xxxmovies.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(4) > label > a:after{
 
     background: url('categories/mvid.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(5) > label > a:after{
 
     background: url('categories/pcgames.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(6) > label > a:after{
 
     background: url('categories/xbgames.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(7) > label > a:after{
 
     background: url('categories/psgames.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(1) > label > a:after{
 
     background: url('categories/wiigames.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(2) > label > a:after{
 
     background: url('categories/windows.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(3) > label > a:after{
 
     background: url('categories/mac.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(4) > label > a:after{
 
     background: url('categories/linux.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(5) > label > a:after{
 
     background: url('categories/mobile.svg') no-repeat center center;
 }
+
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(6) > label > a:after{
 
     background: url('categories/0dayxxx.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(7) > label > a:after{
 
     background: url('categories/books.svg') no-repeat center center;
 }
+
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(1) > label > a:after{
 
     background: url('categories/audiobooks.svg') no-repeat center center;
 }
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(2) > label > a:after{
 
     background: url('categories/music.svg') no-repeat center center;
 }
+
+
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(3) > label > a:after{
 
     background: url('categories/misc.svg') no-repeat center center;
