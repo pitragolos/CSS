@@ -1248,6 +1248,12 @@ tr.unreadpm a {
 
 }
 
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+
+
 /* Input */
 
 input[type="button"],input[type="submit"],input[type="file"],button {
@@ -1284,6 +1290,9 @@ input[type="text"],input[type="search"],input[type="email"],input[type="password
     margin: 2px;
     color: rgba(255,255,255,.5);
     text-decoration: none;
+}
+
+input[type="text"]:focus,input[type="search"]:focus,input[type="email"]:focus,input[type="password"]:focus,select:focus {
 }
 
 select {
@@ -1394,18 +1403,29 @@ a[title="Report"]:before {
 	font-size: 14px;
 }
 
-/* remember to define focus styles! */
-:focus {
-outline: 0;
-}
+
+/*** custom checkboxes ***/
+
+/* input[type=checkbox],input[type=radio]  { display:none; } to hide the checkbox itself 
+input[type=checkbox] + label:before, input[type=radio] + label:before, input[type=checkbox]:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 16px;
+}*/
+
+/*input[type=checkbox] + label:before { content: "\f096"; }  unchecked icon */
+/*input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+/*input[type=checkbox]:checked + label:before { content: "\f046"; color: #ee676e; } /* checked icon */
+/*input[type=checkbox]:checked + label:before { letter-spacing: 10px; } /* allow space for check mark */
+
+/*input[type=radio] + label:before { content:"\f10c"; } /* unchecked icon */
+/*input[type=radio] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+/*input[type=radio]:checked + label:before { content:"\f192";	color: #ee676e;} /* checked icon */
+/*input[type=radio]:checked + label:before { letter-spacing: 10px; } /* allow space for check mark */
 
 
-input[type="text"]:focus,
-input[type="search"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-select:focus {
-}
 
 
 input[type="checkbox"]:not(:checked),
