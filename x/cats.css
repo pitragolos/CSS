@@ -292,10 +292,10 @@ img[alt="MviD"] {
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(n+1) > label a:after
 {
     content: "";
-	display: inline-block;
-    height: 50px;
-    width: 50px;
-    top: 20px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    top: 10px;
     position: relative;
 }
 
