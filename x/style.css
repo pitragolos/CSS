@@ -1311,6 +1311,10 @@ font-family: "Roboto", sans-serif;
 	color: #fff;
 }
 
+.preview_wrap {
+	background: #464a58;
+}
+
 [type=checkbox], [type=radio] {
     box-sizing: border-box;
     padding: 0;
