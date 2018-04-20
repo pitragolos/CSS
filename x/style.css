@@ -1318,9 +1318,9 @@ font-family: "Roboto", sans-serif;
 [type=checkbox], [type=radio] {
     box-sizing: border-box;
     padding: 0;
-    position: relative;
     top: 2px;
     left: 1px;
+	margin-right: 5px;
 }
 
 #forums .forum_list {
