@@ -781,21 +781,6 @@ ul.poll {
 
 /*Torrent table misc*/
 
-
-#torrent_table > tbody > tr > td:nth-child(3) {
-	/*Hide files column*/
-	display: none;
-}
-
-#torrent_table > tbody > tr.colhead > td:nth-child(3) {
-	font-size: 0;
-}
-
-#torrent_table > tbody > tr.colhead > td:nth-child(3):before {
-	/*Files*/
-	content:"\f15b";
-}
-
 #torrent_table > tbody > tr.colhead > td:nth-child(4) a {
 	font-size: 0;
 }
