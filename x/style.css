@@ -911,7 +911,7 @@ strong.torrent_label.tl_timed,
 strong.torrent_label.tl_expired {
 	color: #fff;
 }
-.forum_list tbody > tr:not(.colhead) > td:nth-child(n+5) {
+.forum_list tbody > tr:not(.colhead) > td:nth-child(n+4) {
 	color: #ee6e73;
 	font-size: 16px;
 }
