@@ -305,6 +305,7 @@ ul.thin {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: -1;
+	background: #353C48;
 }
 
 #donation-inner {
