@@ -871,6 +871,10 @@ table.layout.cat_list.ft_cat_list tr {
 .torrent_table tr .center {
 }
 
+#torrent_table tbody tr td:nth-child(1) {
+    display: none;
+}
+
 #torrent_table > tbody > tr.colhead > td:nth-child(n+3),
 #torrent_table > tbody > tr > td:nth-child(n+3),
 .forum_index > tbody > tr > td:nth-child(n+3),
