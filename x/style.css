@@ -779,27 +779,43 @@ ul.poll {
 /* Layout (Torrents page) */
 
 /*Torrent table misc*/
-#torrent_table > tbody > tr.colhead > td:nth-child(4) a {
+
+
+#torrent_table > tbody > tr > td:nth-child(4) {
+	/*Hide files column*/
+	display: none;
+}
+
+#torrent_table > tbody > tr.colhead > td:nth-child(4) {
 	font-size: 0;
 }
 
-#torrent_table > tbody > tr.colhead > td:nth-child(4) a:before {
+#torrent_table > tbody > tr.colhead > td:nth-child(4):before {
+	/*Files*/
+	content:"\f15b";
+}
+
+#torrent_table > tbody > tr.colhead > td:nth-child(5) a {
+	font-size: 0;
+}
+
+#torrent_table > tbody > tr.colhead > td:nth-child(5) a:before {
 	/*Time*/
 	content:"\f017";
 }
 
-#torrent_table > tbody > tr.colhead > td:nth-child(5) a {
+#torrent_table > tbody > tr.colhead > td:nth-child(6) a {
     font-size: 0;
 }
 
-#torrent_table > tbody > tr.colhead > td:nth-child(5) a:before {
+#torrent_table > tbody > tr.colhead > td:nth-child(6) a:before {
 	/*size*/
 	content:"\f0b2";
 }
 
-#torrent_table > tbody > tr.colhead > td:nth-child(3):before,
-#torrent_table > tbody > tr.colhead > td:nth-child(4) a:before,
-#torrent_table > tbody > tr.colhead > td:nth-child(5) a:before {
+#torrent_table > tbody > tr.colhead > td:nth-child(4):before,
+#torrent_table > tbody > tr.colhead > td:nth-child(5) a:before,
+#torrent_table > tbody > tr.colhead > td:nth-child(6) a:before {
     font-family: Fontawesome;
     margin: 0;
     font-size: 18px;
@@ -871,19 +887,19 @@ table.layout.cat_list.ft_cat_list tr {
 .torrent_table tr .center {
 }
 
-#torrent_table tbody tr td:nth-child(1) {
-    display: none;
+#torrent_table > tbody > tr > td:nth-child(1) {
+	display: none;
 }
 
-#torrent_table > tbody > tr.colhead > td:nth-child(n+3),
-#torrent_table > tbody > tr > td:nth-child(n+3),
-.forum_index > tbody > tr > td:nth-child(n+3),
-#request_table > tbody > tr.colhead_dark > td:nth-child(n+2),
-#request_table > tbody > tr > td:nth-child(n+2) {
+#torrent_table > tbody > tr.colhead > td:nth-child(n+4),
+#torrent_table > tbody > tr > td:nth-child(n+4),
+.forum_index > tbody > tr > td:nth-child(n+4),
+#request_table > tbody > tr.colhead_dark > td:nth-child(n+3),
+#request_table > tbody > tr > td:nth-child(n+3) {
 	text-align: center;
 }
 
-.forum_index > tbody > tr > td:nth-child(n+4) {
+.forum_index > tbody > tr > td:nth-child(n+5) {
 	text-align: center;
 }
 
@@ -895,7 +911,7 @@ strong.torrent_label.tl_timed,
 strong.torrent_label.tl_expired {
 	color: #fff;
 }
-.forum_list tbody > tr:not(.colhead) > td:nth-child(n+4) {
+.forum_list tbody > tr:not(.colhead) > td:nth-child(n+5) {
 	color: #ee6e73;
 	font-size: 16px;
 }
@@ -941,9 +957,6 @@ td.big_info {
 td.big_info a {
 }
 
-.group_info.clear {
-    text-align: left;
-}
 
 .nobr {
 	white-space: nowrap;
@@ -1235,12 +1248,6 @@ tr.unreadpm a {
 
 }
 
-/* remember to define focus styles! */
-:focus {
-outline: 0;
-}
-
-
 /* Input */
 
 input[type="button"],input[type="submit"],input[type="file"],button {
@@ -1277,9 +1284,6 @@ input[type="text"],input[type="search"],input[type="email"],input[type="password
     margin: 2px;
     color: rgba(255,255,255,.5);
     text-decoration: none;
-}
-
-input[type="text"]:focus,input[type="search"]:focus,input[type="email"]:focus,input[type="password"]:focus,select:focus {
 }
 
 select {
@@ -1390,8 +1394,19 @@ a[title="Report"]:before {
 	font-size: 14px;
 }
 
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
 
-/*** custom checkboxes ***/
+
+input[type="text"]:focus,
+input[type="search"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+}
+
 
 input[type="checkbox"]:not(:checked),
 input[type="checkbox"]:checked {
@@ -1457,7 +1472,6 @@ input[type="checkbox"]:focus:before {
 input[type="radio"] {
 	 position: relative; 
 	 cursor: pointer; 
-	/* padding-left: 18px; */
 }
 
 input[type="radio"]:before,
@@ -1476,6 +1490,8 @@ input[type="radio"]:before {
 	left: -1px;
 	width: 14px;
 	height: 14px;
+	-moz-box-shadow: inset 0 0 0 18px #464a58;
+	-webkit-box-shadow: inset 0 0 0 18px #464a58;
 	box-shadow: inset 0 0 0 18px #464a58;
 }
 
