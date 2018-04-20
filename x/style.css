@@ -1410,144 +1410,127 @@ a[title="Report"]:before {
 
 
 /*-----custom-checkbox/radio-----*/
-[type="checkbox"]:not(:checked),
-	[type="checkbox"]:checked {
-		display: none;
-	}
-	[type="checkbox"]:not(:checked) + label,
-	[type="checkbox"]:checked + label {
-		position: relative;
-		padding-left: 50px;
-		cursor: pointer;
-	}
-	[type="checkbox"]:not(:checked) + label:before,
-	[type="checkbox"]:checked + label:before,
-	[type="checkbox"]:not(:checked) + label:after,
-	[type="checkbox"]:checked + label:after {
-		content: '';
-		position: absolute;
-	}
-	[type="checkbox"]:not(:checked) + label:before,
-	[type="checkbox"]:checked + label:before {
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked {
+	position: relative;
+	padding-left: 50px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+input[type="checkbox"]:not(:checked):before,
+input[type="checkbox"]:checked:before,
+input[type="checkbox"]:not(:checked):after,
+input[type="checkbox"]:checked:after {
+	content: '';
+	position: absolute;
+}
+
+input[type="checkbox"]:not(:checked):before,
+input[type="checkbox"]:checked:before {
 	left: 0;
-    top: 1px;
-    width: 45px;
-    height: 14px;
-    background: #464a58;
-    border-radius: 15px;
-    -webkit-transition: background-color .2s;
-    -moz-transition: background-color .2s;
-    -ms-transition: background-color .2s;
-    transition: background-color .2s;
-	}
-	[type="checkbox"]:not(:checked) + label:after,
-	[type="checkbox"]:checked + label:after {
-    width: 14px;
-    height: 14px;
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -ms-transition: all .2s;
-    transition: all .2s;
-    border-radius: 50%;
-    background: #7F8C9A;
-    top: 1px;
-    left: 0px;
-	}
+	top: -2px;
+	width: 15px;
+	height: 15px;
+	background: #464a58;
+	/* border-radius: 15px; */
+	-webkit-transition: background-color .2s;
+	-moz-transition: background-color .2s;
+	-ms-transition: background-color .2s;
+	transition: background-color .2s;
+}
 
-	/* on checked */
-	[type="checkbox"]:checked + label:before {
-		background:#464a58; 
-	}
-	[type="checkbox"]:checked + label:after {
+input[type="checkbox"]:not(:checked):after,
+input[type="checkbox"]:checked:after {
+	width: 15px;
+	height: 15px;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	transition: all .2s;
+	/* border-radius: 50%; */
+	background: #464a58;
+	top: -2px;
+	left: 0px;
+}
+
+/* on checked */
+
+input[type="checkbox"]:checked:before {
+	background: #464a58;
+}
+
+input[type="checkbox"]:checked:after {
 	background: #ee6e73;
-    top: 1px;
-    left: 31px;
-	}
-
-	[type="checkbox"]:checked + label .ui,
-	[type="checkbox"]:not(:checked) + label .ui:before,
-	[type="checkbox"]:checked + label .ui:after {
-		position: absolute;
-		left: 6px;
-		width: 65px;
-		border-radius: 15px;
-		font-size: 14px;
-		font-weight: bold;
-		line-height: 22px;
-		-webkit-transition: all .2s;
-		-moz-transition: all .2s;
-		-ms-transition: all .2s;
-		transition: all .2s;
-	}
-	[type="checkbox"]:not(:checked) + label .ui:before {
-		content: "no";
-		left: 32px
-	}
-	[type="checkbox"]:checked + label .ui:after {
-		content: "yes";
-		color: #39D2B4;
-	}
-	[type="checkbox"]:focus + label:before {
-		border: 1px dashed #777;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-ms-box-sizing: border-box;
-		box-sizing: border-box;
-		margin-top: -1px;
-	}
-	
-	input[type="radio"] {
-  display: none;
+	/* top: -2px; */
+	/* left: 30px; */
 }
 
-input[type="radio"] + label {
-  position: relative;
-  cursor: pointer;
-  padding-left: 18px;
-}
-input[type="radio"] + label:before, input[type="radio"] + label:after {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-input[type="radio"] + label:before {
-  top: 0;
-  left: 0;
-  width: 14px;
-  height: 14px;
-  background: #ee6e73;
-  -moz-box-shadow: inset 0 0 0 18px #464a58;
-  -webkit-box-shadow: inset 0 0 0 18px #464a58;
-  box-shadow: inset 0 0 0 18px #464a58;
-}
-input[type="radio"] + label:after {
-  top: 8px;
-    left: 7px;
-    width: 18px;
-    height: 18px;
-    opacity: 0;
-    background: rgba(255, 255, 255, 0.3);
-    -moz-transform: translate(-50%, -50%) scale(0);
-    -ms-transform: translate(-50%, -50%) scale(0);
-    -webkit-transform: translate(-50%, -50%) scale(0);
-    transform: translate(-50%, -50%) scale(0);
+input[type="checkbox"]:focus:before {
+	border: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-input[type="radio"]:checked + label:before {
-  -moz-box-shadow: inset 0 0 0 1px #464a58;
-  -webkit-box-shadow: inset 0 0 0 1px #464a58;
-  box-shadow: inset 0 0 0 1px #464a58;
+input[type="radio"] {
+	display: none;
 }
-input[type="radio"]:checked + label:after {
-  -moz-transform: translate(-50%, -50%) scale(1);
-  -ms-transform: translate(-50%, -50%) scale(1);
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  transform: translate(-50%, -50%) scale(1);
-  -moz-animation: ripple 1s none;
-  -webkit-animation: ripple 1s none;
-  animation: ripple 1s none;
+
+input[type="radio"] {
+	position: relative;
+	cursor: pointer;
+	padding-left: 18px;
+}
+
+input[type="radio"]:before,
+input[type="radio"]:after {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+input[type="radio"]:before {
+	top: 0;
+	left: 0;
+	width: 14px;
+	height: 14px;
+	background: #ee6e73;
+	-moz-box-shadow: inset 0 0 0 18px #464a58;
+	-webkit-box-shadow: inset 0 0 0 18px #464a58;
+	box-shadow: inset 0 0 0 18px #464a58;
+}
+
+input[type="radio"]:after {
+	top: 8px;
+	left: 7px;
+	width: 18px;
+	height: 18px;
+	opacity: 0;
+	background: rgba(255, 255, 255, 0.3);
+	-moz-transform: translate(-50%, -50%) scale(0);
+	-ms-transform: translate(-50%, -50%) scale(0);
+	-webkit-transform: translate(-50%, -50%) scale(0);
+	transform: translate(-50%, -50%) scale(0);
+}
+
+input[type="radio"]:checked:before {
+	-moz-box-shadow: inset 0 0 0 1px #464a58;
+	-webkit-box-shadow: inset 0 0 0 1px #464a58;
+	box-shadow: inset 0 0 0 1px #464a58;
+}
+
+input[type="radio"]:checked:after {
+	-moz-transform: translate(-50%, -50%) scale(1);
+	-ms-transform: translate(-50%, -50%) scale(1);
+	-webkit-transform: translate(-50%, -50%) scale(1);
+	transform: translate(-50%, -50%) scale(1);
+	-moz-animation: ripple 1s none;
+	-webkit-animation: ripple 1s none;
+	animation: ripple 1s none;
 }
