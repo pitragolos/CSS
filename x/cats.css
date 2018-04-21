@@ -277,7 +277,7 @@ img[alt="MviD"] {
 
 /*  category icons WIP */
 
-#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(n+1) > label a,
+/*#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(n+1) > label a,
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(n+1) > label > a,
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(n+1) > label > a,
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(n+1) > label > a
@@ -423,4 +423,4 @@ table.layout.cat_list > tbody > tr:nth-child(1) > td:nth-child(2) > label {
 #ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(3) > label > a:after{
 
     background: url('categories/misc.svg') no-repeat center center;
-}
+}*/
