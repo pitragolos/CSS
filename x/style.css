@@ -785,47 +785,6 @@ ul.poll {
 /*Torrent table misc*/
 
 
-#torrent_table > tbody > tr > td:nth-child(4) {
-	/*Hide files column*/
-	display: none;
-}
-
-#torrent_table > tbody > tr.colhead > td:nth-child(4) {
-	font-size: 0;
-}
-
-#torrent_table > tbody > tr.colhead > td:nth-child(4):before {
-	/*Files*/
-	content:"\f15b";
-}
-
-#torrent_table > tbody > tr.colhead > td:nth-child(5) a {
-	font-size: 0;
-}
-
-#torrent_table > tbody > tr.colhead > td:nth-child(5) a:before {
-	/*Time*/
-	content:"\f017";
-}
-
-#torrent_table > tbody > tr.colhead > td:nth-child(6) a {
-    font-size: 0;
-}
-
-#torrent_table > tbody > tr.colhead > td:nth-child(6) a:before {
-	/*size*/
-	content:"\f0b2";
-}
-
-#torrent_table > tbody > tr.colhead > td:nth-child(4):before,
-#torrent_table > tbody > tr.colhead > td:nth-child(5) a:before,
-#torrent_table > tbody > tr.colhead > td:nth-child(6) a:before {
-    font-family: Fontawesome;
-    margin: 0;
-    font-size: 18px;
-	color: #fff;
-}
-
 img[alt="Default avatar"] {
 	display: block;
     -moz-box-sizing: border-box;
@@ -891,12 +850,16 @@ table.layout.cat_list.ft_cat_list tr {
 .torrent_table tr .center {
 }
 
-#torrent_table > tbody > tr > td:nth-child(1) {
+#torrent_table > tbody > tr > td:nth-child(1):not(.cats_col) {
 	display: none;
 }
 
-#torrent_table > tbody > tr.colhead > td:nth-child(n+4),
-#torrent_table > tbody > tr > td:nth-child(n+4),
+#torrent_table > tbody > tr > td:nth-child(1):not(.cats_col) {
+    display: none;
+}
+
+#torrent_table > tbody > tr.colhead > td:nth-child(n+3),
+#torrent_table > tbody > tr > td:nth-child(n+3),
 .forum_index > tbody > tr > td:nth-child(n+4),
 #request_table > tbody > tr.colhead_dark > td:nth-child(n+3),
 #request_table > tbody > tr > td:nth-child(n+3) {
