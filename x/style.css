@@ -342,12 +342,9 @@ ul.thin {
     position: relative;
 }
 
-#menu ul {
-
-}
+#menu ul {display:  flex;}
 #menu ul li {
-	display: inline-block;
-    vertical-align: top;
+	flex:  1 1 auto;
 }
 
 #menu ul li:hover {
@@ -360,6 +357,10 @@ ul.thin {
 }
 
 #menu ul li a:hover {
+}
+
+#nav_index {
+	display: none;
 }
 
 #alerts {
