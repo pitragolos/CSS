@@ -4,34 +4,34 @@
     height: 35px;
 }
 
-.cats_tvsd { background: url('categories/sdtv.svg') no-repeat center; }
-.cats_tvhd { background: url('categories/hdtv.svg') no-repeat center; } 
-.cats_tvdvdrip { background: url('categories/tvdvd.svg') no-repeat center; }
-.cats_tvpacksd { background: url('categories/sdtvpack.svg') no-repeat center; } 
-.cats_tvpackhd { background: url('categories/hdtv_pack.svg') no-repeat center; }
+.cats_tvsd { background: url('categories/sdtv.svg') no-repeat center; border-right: 3px solid #42A5F5; }
+.cats_tvhd { background: url('categories/hdtv.svg') no-repeat center; border-right: 3px solid #42A5F5; } 
+.cats_tvdvdrip { background: url('categories/tvdvd.svg') no-repeat center; border-right: 3px solid #42A5F5;}
+.cats_tvpacksd { background: url('categories/sdtvpack.svg') no-repeat center; border-right: 3px solid #42A5F5;} 
+.cats_tvpackhd { background: url('categories/hdtv_pack.svg') no-repeat center; border-right: 3px solid #42A5F5;}
 
-.cats_moviesd { background: url('categories/sdmovies.svg') no-repeat center; }
-.cats_moviehd { background: url('categories/hdmovies.svg') no-repeat center; }
-.cats_moviepacksd { background: url('categories/sd_movie_pack.svg') no-repeat center; }
-.cats_moviepackhd { background: url('categories/hd_movie_pack.svg') no-repeat center; }
-.cats_moviexxx { background: url('categories/xxxmovies.svg') no-repeat center; }
+.cats_moviesd { background: url('categories/sdmovies.svg') no-repeat center; border-right: 3px solid #42A5F5;}
+.cats_moviehd { background: url('categories/hdmovies.svg') no-repeat center; border-right: 3px solid #42A5F5;}
+.cats_moviepacksd { background: url('categories/sd_movie_pack.svg') no-repeat center; border-right: 3px solid #42A5F5;}
+.cats_moviepackhd { background: url('categories/hd_movie_pack.svg') no-repeat center; border-right: 3px solid #42A5F5;}
+.cats_moviexxx { background: url('categories/xxxmovies.svg') no-repeat center; border-right: 3px solid #EC407A;}
 
-.cats_mvid { background: url('categories/mvid.svg') no-repeat center; }
-.cats_gamespc { background: url('categories/pcgames.svg') no-repeat center; }
-.cats_gamesxbox { background: url('categories/xbgames.svg') no-repeat center; }
-.cats_gamesps3 { background: url('categories/psgames.svg') no-repeat center; }
-.cats_gameswii { background: url('categories/wiigames.svg') no-repeat center; }
+.cats_mvid { background: url('categories/mvid.svg') no-repeat center; border-right: 3px solid #42A5F5;}
+.cats_gamespc { background: url('categories/pcgames.svg') no-repeat center; border-right: 3px solid #ef5350;}
+.cats_gamesxbox { background: url('categories/xbgames.svg') no-repeat center; border-right: 3px solid #ef5350;}
+.cats_gamesps3 { background: url('categories/psgames.svg') no-repeat center; border-right: 3px solid #ef5350;}
+.cats_gameswii { background: url('categories/wiigames.svg') no-repeat center; border-right: 3px solid #ef5350;}
 
-.cats_appspc { background: url('categories/windows.svg') no-repeat center; }
-.cats_appsmac { background: url('categories/mac.svg') no-repeat center; }
-.cats_appslinux { background: url('categories/linux.svg') no-repeat center; }
-.cats_appsmobile { background: url('categories/mobile.svg') no-repeat center; }
+.cats_appspc { background: url('categories/windows.svg') no-repeat center; border-right: 3px solid #66BB6A;}
+.cats_appsmac { background: url('categories/mac.svg') no-repeat center; border-right: 3px solid #66BB6A;}
+.cats_appslinux { background: url('categories/linux.svg') no-repeat center; border-right: 3px solid #66BB6A;}
+.cats_appsmobile { background: url('categories/mobile.svg') no-repeat center; border-right: 3px solid #66BB6A;}
 
-.cats_0dayxxx { background: url('categories/0dayxxx.svg') no-repeat center; }
-.cats_ebook { background: url('categories/books.svg') no-repeat center; }
-.cats_audiobook { background: url('categories/audiobooks.svg') no-repeat center; }
-.cats_misc { background: url('categories/misc.svg') no-repeat center; }
-.cats_music { background: url('categories/music.svg') no-repeat center; }
+.cats_0dayxxx { background: url('categories/0dayxxx.svg') no-repeat center; border-right: 3px solid #EC407A;}
+.cats_ebook { background: url('categories/books.svg') no-repeat center; border-right: 3px solid #26A69A;}
+.cats_audiobook { background: url('categories/audiobooks.svg') no-repeat center; border-right: 3px solid #26A69A;}
+.cats_misc { background: url('categories/misc.svg') no-repeat center; border-right: 3px solid #66BB6A;}
+.cats_music { background: url('categories/music.svg') no-repeat center; border-right: 3px solid #AB47BC;}
 
 
 /*-----Box-Art---------*/
