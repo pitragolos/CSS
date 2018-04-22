@@ -416,48 +416,40 @@ ul.thin {
 }
 
 #searchbars {
-	text-align: center;
-	background: none;
-	padding: 10px;
-	position: relative;
+
 }
 
-#searchbars input:focus {
-}
 
 #searchbars ul {
-	margin: 0 auto;
-	display: block;
+	display: flex;
+	padding: 0 9px;
+	height: 50px;
+	-ms-flex-align: center;
+	align-items: center;
+	/*background-color: #353C48; */
 }
 
 
 #searchbars ul li {
-	display: inline;
-	margin: 0px 1px;
-	list-style: none;
-	position: relative;
+	flex: 1 1 auto;
+	margin-right: 9px;
 }
 
-#searchbars ul li ul {
-	display: block;
-	width: 12em;
-	margin-top: 12px;
-}
-
-#searchbars ul li ul li {
-	margin: 0;
-	padding: 0;
-	display: block;
-	width: 100%;
-	background: #303030;
-}
-
-#searchbars ul li ul li.highlight {
-	background: #454545;
-}
 
 #searchbars ul li form {
-	display: inline;
+	/* display: inline; */
+}
+
+
+#searchbars .search_form input {
+
+}
+
+#searchbars > ul input {
+    width: 100%;
+}
+
+#searchbars input:focus {
 }
 
 #cat-selector ul {
@@ -821,7 +813,7 @@ text-align:  right;
 
 }
 
-form {
+form.search_form {
 	
 }
 
@@ -861,7 +853,7 @@ table.layout.cat_list.ft_cat_list tr {
 
 #torrent_table > tbody > tr.colhead > td:nth-child(n+3),
 #torrent_table > tbody > tr > td:nth-child(n+4),
-.forum_index > tbody > tr > td:nth-child(n+3),
+.forum_index > tbody > tr > td:nth-child(n+4),
 #request_table > tbody > tr.colhead_dark > td:nth-child(n+3),
 #request_table > tbody > tr > td:nth-child(n+3) {
 	text-align: center;
