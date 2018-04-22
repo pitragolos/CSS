@@ -282,13 +282,14 @@ ul.thin {
     display: block;
     width: 105px;
     height: 105px;
+    margin: 0 auto;
 }
 
 #logo a {
-	background: url('images/logo.svg') no-repeat center;
-	width: 105px;
-	height: 105px;
-	margin: 10px auto;
+	background: url(images/logo.svg) no-repeat center;
+    width: 105px;
+    height: 105px;
+    display: block;
 }
 
 #logo a:hover {
@@ -302,22 +303,22 @@ ul.thin {
     border: 0px solid #fff;
     overflow: hidden;
     position: absolute;
-    top: 56px;
+    top: 49px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: -1;
-	background: #353C48;
+    background: #353C48;
 }
 
 #donation-inner {
-	display: block;
-	height: 94px;
-	background: #ee6e73;
-	position: absolute;
-	top: 0px;
-	left: 0;
-	z-index: 100;
+    display: block;
+    height: 94px;
+    background: #ee6e73;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 #donation-link {
