@@ -279,16 +279,16 @@ ul.thin {
 }
 
 #logo {
+    display: block;
+    width: 105px;
+    height: 105px;
+}
+
+#logo a {
 	background: url('images/logo.svg') no-repeat center;
 	width: 105px;
 	height: 105px;
 	margin: 10px auto;
-}
-
-#logo a {
-    display: block;
-    width: 105px;
-    height: 105px;
 }
 
 #logo a:hover {
