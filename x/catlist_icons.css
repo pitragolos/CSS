@@ -1,0 +1,149 @@
+/*  category icons WIP */
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(n+1) > label a,
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(n+1) > label > a,
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(n+1) > label > a,
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(n+1) > label > a
+{
+   font-size: 0;
+}
+
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(n+1) > label a:after,
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(n+1) > label a:after,
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(n+1) > label a:after,
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(n+1) > label a:after
+{
+    content: "";
+	display: inline-block;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+    position: relative;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(1) > label a:after {
+
+    background: url('categories/sdtv.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(2) > label > a:after {
+    background: url('categories/hdtv.svg') no-repeat center center;
+}
+
+table.layout.cat_list > tbody > tr:nth-child(1) > td:nth-child(2) > label {
+    
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(3) > label > a:after {
+
+    background: url('categories/tvdvd.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(4) > label > a:after {
+
+    background: url('categories/sdtvpack.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(5) > label > a:after {
+
+    background: url('categories/hdtv_pack.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(6) > label > a:after {
+
+    background: url('categories/sdmovies.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(1) > td:nth-child(7) > label > a:after {
+
+    background: url('categories/hdmovies.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(1) > label > a:after{
+
+    background: url('categories/sd_movie_pack.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(2) > label > a:after{
+
+    background: url('categories/hd_movie_pack.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(3) > label > a:after{
+
+    background: url('categories/xxxmovies.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(4) > label > a:after{
+
+    background: url('categories/mvid.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(5) > label > a:after{
+
+    background: url('categories/pcgames.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(6) > label > a:after{
+
+    background: url('categories/xbgames.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(2) > td:nth-child(7) > label > a:after{
+
+    background: url('categories/psgames.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(1) > label > a:after{
+
+    background: url('categories/wiigames.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(2) > label > a:after{
+
+    background: url('categories/windows.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(3) > label > a:after{
+
+    background: url('categories/mac.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(4) > label > a:after{
+
+    background: url('categories/linux.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(5) > label > a:after{
+
+    background: url('categories/mobile.svg') no-repeat center center;
+}
+
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(6) > label > a:after{
+
+    background: url('categories/0dayxxx.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(3) > td:nth-child(7) > label > a:after{
+
+    background: url('categories/books.svg') no-repeat center center;
+}
+
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(1) > label > a:after{
+
+    background: url('categories/audiobooks.svg') no-repeat center center;
+}
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(2) > label > a:after{
+
+    background: url('categories/music.svg') no-repeat center center;
+}
+
+
+#ft_container > table.layout.cat_list.ft_cat_list > tbody > tr:nth-child(4) > td:nth-child(3) > label > a:after{
+
+    background: url('categories/misc.svg') no-repeat center center;
+}
