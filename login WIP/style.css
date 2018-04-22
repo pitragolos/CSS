@@ -192,8 +192,8 @@ p {
   text-align: center;
 }
 .logo {
-    width: 213px;
-    height: 36px;
-    
-    margin: 30px auto;
+  background: url('images/logo.svg')no-repeat center #ee6e73;
+  width: 145px;
+  height: 145px;
+  margin: 10px auto;
 }
