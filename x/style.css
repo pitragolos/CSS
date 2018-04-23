@@ -34,22 +34,9 @@ a {
 }
 
 a:hover {
-	color: rgba(255,255,255,1);
+	color: #f08084;
 	text-decoration: none;
-}
-
-a[title="View User Torrent"]{
-	color: #4CAF50 !important;
-}
-
-a[title="View User Torrent"]:before {
-	content:"\f234";
-	color: #fff;
-	position: relative;
-    margin: 0 5px 0 0;
-	display: inline-block;
-	font-family: "FontAwesome";
-	font-size: larger;
+	transition: all 0.15s ease 0.15s;
 }
 
 h1,h2,h3,h4 {
@@ -253,7 +240,6 @@ ul.thin {
 #userinfo_stats .stat:hover,#userinfo_stats .stat a:hover{
 	
 }
-
 
 #disclaimer_container {
 	display: none;
@@ -579,10 +565,10 @@ p.min_padding {
 .head a {
 }
 
-#torrent_table > tbody > tr > td:nth-child(7) {
+#torrent_table > tbody > tr > td:nth-child(8) {
     color: #4CAF50;
 }
-#torrent_table > tbody > tr > td:nth-child(8) {
+#torrent_table > tbody > tr > td:nth-child(9) {
     color: #F44336;
 }
 
@@ -676,6 +662,7 @@ tr {
 }
 
 tr.rowa {
+	
 }
 
 tr.rowb {
@@ -851,29 +838,25 @@ table.layout.cat_list.ft_cat_list tr {
     display: none;
 }
 
-#torrent_table > tbody > tr.colhead > td:nth-child(n+3),
+#torrent_table:not(.grouping) > tbody > tr.colhead > td:nth-child(n+3),
 #torrent_table > tbody > tr > td:nth-child(n+4),
 .forum_index > tbody > tr > td:nth-child(n+3),
 #request_table > tbody > tr.colhead_dark > td:nth-child(n+3),
-#request_table > tbody > tr > td:nth-child(n+3) {
-	text-align: center;
-}
-
-.forum_index > tbody > tr > td:nth-child(n+5) {
+#request_table > tbody > tr > td:nth-child(n+3)
+{
 	text-align: center;
 }
 
 strong.torrent_label.tl_free,
-strong.torrent_label.tl_notice,
 strong.torrent_label.tl_notice,
 strong.torrent_label.tl_scene,
 strong.torrent_label.tl_timed,
 strong.torrent_label.tl_expired {
 	color: #fff;
 }
+
 .forum_list tbody > tr:not(.colhead) > td:nth-child(n+4) {
-	color: #ee6e73;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 strong.important_text {
@@ -1270,6 +1253,11 @@ font-family: "Roboto", sans-serif;
 	color: #fff;
 }
 
+#preview, #contentpreview {
+    padding: 7px;
+    background: #464a58;
+}
+
 .preview_wrap {
 	background: #464a58;
 }
@@ -1288,15 +1276,11 @@ font-family: "Roboto", sans-serif;
 	margin-top: 24px
 }
 
-table.staff tr.rowa, table.staff tr.rowb {
-	text-align: left;
-}
-
-#recent_snatches tr {
+/*#recent_snatches tr {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+}*/
 
 #recent_snatches td {
     overflow: hidden;
@@ -1304,6 +1288,14 @@ table.staff tr.rowa, table.staff tr.rowb {
     word-break: break-all;
 	flex: 118px;
 }
+
+#recent_uploads td {
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+	flex: 118px;
+}
+
 #header {
 	position: relative;
 	background: none;
@@ -1357,4 +1349,18 @@ a[title="Report"]:before {
 	display: inline-block;
 	font-family: "FontAwesome";
 	font-size: 14px;
+}
+
+a[title="View User Torrent"]{
+	color: #4CAF50 !important;
+}
+
+a[title="View User Torrent"]:before {
+	content:"\f234";
+	color: #fff;
+	position: relative;
+    margin: 0 5px 0 0;
+	display: inline-block;
+	font-family: "FontAwesome";
+	font-size: larger;
 }
