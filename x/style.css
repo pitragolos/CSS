@@ -840,11 +840,10 @@ table.layout.cat_list.ft_cat_list tr {
 
 #torrent_table:not(.grouping) > tbody > tr.colhead > td:nth-child(n+3),
 #torrent_table > tbody > tr > td:nth-child(n+4),
-.forum_index > tbody > tr > td:nth-child(n+3),
+.forum_index > tbody > tr > td:nth-child(n+4),
 #request_table > tbody > tr.colhead_dark > td:nth-child(n+3),
-#request_table > tbody > tr > td:nth-child(n+3)
-{
-	text-align: center;
+#request_table > tbody > tr > td:nth-child(n+3) {
+    text-align: center;
 }
 
 strong.torrent_label.tl_free,
