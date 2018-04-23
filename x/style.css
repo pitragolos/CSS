@@ -352,8 +352,8 @@ ul.thin {
 
 #menu ul li a {
 	text-transform: uppercase;
-    padding: 18px 12px;
-    display: block;
+	display: block;
+	line-height: 50px;
 }
 
 #menu ul li a:hover {
@@ -853,7 +853,7 @@ table.layout.cat_list.ft_cat_list tr {
 
 #torrent_table > tbody > tr.colhead > td:nth-child(n+3),
 #torrent_table > tbody > tr > td:nth-child(n+4),
-.forum_index > tbody > tr > td:nth-child(n+4),
+.forum_index > tbody > tr > td:nth-child(n+3),
 #request_table > tbody > tr.colhead_dark > td:nth-child(n+3),
 #request_table > tbody > tr > td:nth-child(n+3) {
 	text-align: center;
