@@ -241,10 +241,6 @@ ul.thin {
 	
 }
 
-#disclaimer_container {
-	display: none;
-}
-
 #nav_globalinvite a {
 }
 
@@ -1356,3 +1352,9 @@ a[title="View User Torrent"]:before {
 	font-family: "FontAwesome";
 	font-size: larger;
 }
+
+/*hide the bullshit*/
+#disclaimer_container {
+	display: none;
+}
+/*----------------*/
