@@ -1276,20 +1276,13 @@ font-family: "Roboto", sans-serif;
 	margin-top: 24px
 }
 
-/*#recent_snatches tr {
+#recent_snatches tr, #recent_uploads tr {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}*/
-
-#recent_snatches td {
-    overflow: hidden;
-    word-wrap: break-word;
-    word-break: break-all;
-	flex: 118px;
 }
 
-#recent_uploads td {
+#recent_snatches td,#recent_uploads td {
     overflow: hidden;
     word-wrap: break-word;
     word-break: break-all;
