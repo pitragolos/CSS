@@ -1225,7 +1225,6 @@ input[type="text"],input[type="search"],input[type="email"],input[type="password
     padding: 2px 8px;
     background: #464a58;
     border: 0;
-    margin: 2px;
     color: rgba(255,255,255,.5);
     text-decoration: none;
 }
