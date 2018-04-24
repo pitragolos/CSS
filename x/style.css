@@ -3,7 +3,8 @@
 @import url('cats.css');
 @import url('checkbox.css');
 /*@import url('catlist_icons.css');*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 * {
 	padding: 0em;
@@ -453,15 +454,6 @@ input.hidden {
 select {
 }
 
-input[type="button"], input[type="submit"] {
-    background: none;
-	border: 1px solid rgba(255, 255, 255, 0.3);
-    font-family: 'Roboto', Tahoma, Arial, sans-serif;
-    cursor: pointer;
-    padding: 4pt 6pt;
-    margin: 5px;
-}
-
 /* Layout (Any page) */
 
 #content,.thin {
@@ -556,7 +548,6 @@ p.min_padding {
 	padding: 10px;
 	margin: 0;
 	color: #ee6e73;
-	text-transform: uppercase;
 }
 
 .head a {
@@ -602,6 +593,8 @@ span.last_poster {
 }
 
 .tags {
+	font-size: smaller;
+    font-family: 'Open sans';
 }
 
 .tags a {
@@ -862,12 +855,6 @@ strong.important_text {
 
 td.center.cats_col {
 	margin: 0;
-}
-
-.center.cats_col {
-	display: block;
-	width: 35px;
-	height: 35px;
 }
 
 strong.torrent_label.tl_snatched {
@@ -1358,3 +1345,7 @@ a[title="View User Torrent"]:before {
 	display: none;
 }
 /*----------------*/
+
+::selection {
+	background: blue;
+}
