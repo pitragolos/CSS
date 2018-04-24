@@ -1351,7 +1351,7 @@ a[title="View User Torrent"]{
 	color: #4CAF50 !important;
 }
 
-a[title="View User Torrent"]:before {
+/*a[title="View User Torrent"]:before {
 	content:"\f234";
 	color: #fff;
 	position: relative;
@@ -1359,9 +1359,9 @@ a[title="View User Torrent"]:before {
 	display: inline-block;
 	font-family: "FontAwesome";
 	font-size: larger;
-}
+}*/
 
-/*hide the bullshit disclaimer*/
+/*hide the disclaimer*/
 #disclaimer_container {
 	display: none;
 }
