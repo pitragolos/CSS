@@ -1366,7 +1366,3 @@ a[title="View User Torrent"]:before {
 	display: none;
 }
 /*----------------*/
-
-::selection {
-	background: blue;
-}
