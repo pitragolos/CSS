@@ -179,8 +179,14 @@ ul.thin {
 	top: 0px;
 	width: 100%;
 	margin: 0px auto;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
 	justify-content: space-between;
 }
 #userinfo *{text-transform:uppercase}
@@ -781,9 +787,23 @@ img[alt="Default avatar"] {
 
 }
 
-.filter_torrents .submit {
+#torrents .filter_torrents .ft_submit {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+}
 
-text-align:  right;
+#torrents .filter_torrents .ft_submit span {
+	-webkit-box-ordinal-group: 2;
+	-moz-box-ordinal-group: 2;
+	-webkit-order: 2;
+	-ms-flex-order: 2;
+	order: 2;
 }
 
 #content form.search_form + .torrent_table {
@@ -791,7 +811,7 @@ text-align:  right;
 }
 
 form.search_form {
-	
+	background: #353C48
 }
 
 .cat_list tr td {
@@ -1181,6 +1201,7 @@ outline: 0;
 
 
 /* Input */
+
 
 input[type="button"],input[type="submit"],input[type="file"],button {
 	font-family: "Roboto", sans-serif;
