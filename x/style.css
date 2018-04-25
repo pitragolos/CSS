@@ -156,6 +156,10 @@ ul.thin {
     margin: 15px;
 }
 
+.linkbox, .linkbox .center {
+	text-align: left;
+}
+
 .linkbox .brackets {
 	margin-left: 10px;
 }
