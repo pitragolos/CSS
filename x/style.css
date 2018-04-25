@@ -42,7 +42,6 @@ a:hover {
 
 h1,h2,h3,h4 {
     font-weight: 300;
-    line-height: 1.1;
 }
 h1 a,h2 a,h3 a,h4 a {
     font-weight: inherit
@@ -159,7 +158,9 @@ ul.thin {
 .linkbox, .linkbox .center {
 	text-align: left;
 }
-
+#searchforum  input[type="submit"] {
+	display: flex;
+}
 .linkbox .brackets {
 	margin-left: 10px;
 }
@@ -814,8 +815,16 @@ img[alt="Default avatar"] {
 
 }
 
+form {
+	padding: 8px;
+}
+
 form.search_form {
 	background: #353C48
+}
+
+#compose > form {
+	background: #353C48;
 }
 
 .cat_list tr td {
