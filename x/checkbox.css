@@ -9,13 +9,15 @@ input[type="checkbox"],input[type="radio"] {
     background-color: #464a58;
     left: 1px;
     margin-right: 5px;
+    transition: all 0.3s ease;
 }
 
 input[type="checkbox"]:checked, 
 input[type="radio"]:checked {
-  background-color: #ee6e73;
+    background-color: #ee6e73;
+    transition: all 0.3s ease;
 }
 
 input[type="radio"] {
-  border-radius:50%;
+    border-radius:50%;
 }
