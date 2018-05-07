@@ -366,7 +366,6 @@ ul.thin {
 .alertbar, .alertbar.blend {
     text-shadow: none;
     margin-right: 5px;
-
     text-align: center;
     font-weight: bold;
     font-size: 0.95em;
@@ -378,9 +377,9 @@ ul.thin {
 
 .alertbar:not(.blend) {
     position: relative;
-    margin: 0;
+    margin: 0 20px;
     display: inline-block;
-    margin: 0;
+    margin: 0 20px;
     background: #353C48;
     padding: 4px;
     border: 0;
@@ -532,6 +531,7 @@ overflow: hidden;
 
 .center {
 	text-align: center;
+	margin-bottom: 12px;
 }
 
 .right {
@@ -1224,20 +1224,11 @@ tr.unreadpm a {
 	overflow: auto;
 }
 
-
-.center {
-	text-align: center;
-	margin-bottom: 12px;
-}
-
 .spellcheck {
 	margin: 25px 0;
 	font-size: 1.25em;
 	font-weight: bold;
 }
-
-
-
 
 .field_div {
 }
