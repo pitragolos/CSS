@@ -4,8 +4,7 @@
 @import url('checkbox.css');
 /*@import url('catlist_icons.css');*/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('font.css');
 * {
 	padding: 0em;
 	margin: 0em;
@@ -18,7 +17,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	height: 100%;
 	width: 100%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'future', sans-serif;
     font-weight: 300;
 }
 
@@ -535,7 +534,7 @@ overflow: hidden;
 }
 
 .right {
-	text-align: right;
+	
 }
 
 .min_padding {
@@ -645,7 +644,7 @@ span.last_poster {
 
 .tags {
 	font-size: smaller;
-    font-family: 'Open sans';
+    font-family: 'Roboto';
 }
 
 .tags a {
@@ -1256,7 +1255,7 @@ outline: 0;
 
 
 input[type="button"],input[type="submit"],input[type="file"],button {
-	font-family: "Roboto", sans-serif;
+	font-family: "future", sans-serif;
     font-weight: 300;
     border-image: initial;
     box-sizing: border-box;
@@ -1279,7 +1278,7 @@ input[type="button"]:hover,input[type="submit"]:hover {
 }
 
 input[type="text"],input[type="search"],input[type="email"],input[type="password"],select {
-	font-family: "Roboto", sans-serif;
+	font-family: "future", sans-serif;
     font-weight: 300;
     box-sizing: border-box;
     height: 30px;
@@ -1299,7 +1298,7 @@ select {
 }
 
 textarea {
-font-family: "Roboto", sans-serif;
+font-family: "future", sans-serif;
     min-height: 26px;
     padding: 2px 8px;
     background: #464a58;
