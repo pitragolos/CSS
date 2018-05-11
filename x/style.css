@@ -23,7 +23,7 @@ html {
 
 body {
 	background: #3C4452;
-	color: #b4b4b4;
+	color: #fff;
 }
 
 /* Common elements */
@@ -148,7 +148,7 @@ ul.thin {
 #content > .thin > .header > h2,
 #content > .thin > .header > h3 {
 	color: #fff;
-    font-size: 2.2em;
+    font-size: 1.35em;
     font-weight: 300;
     margin-bottom: 20px;
 }
@@ -598,9 +598,13 @@ p.min_padding {
 }
 
 .head, .colhead, .colhead_dark {
-	padding: 10px;
-	margin: 0;
-	color: #ee6e73;
+    /*padding: 10px; */
+    /* margin: 0; */
+    color: #ee6e73;
+    /* color: #fff; */
+    font-size: 1.35em;
+    /* font-weight: 300; */
+    /* margin-bottom: 20px; */
 }
 
 .head a {
@@ -1091,10 +1095,10 @@ td.body {
 }
 
 .breadcrumbs {
-	font-weight: 300;
-    text-align: left;
-    margin: 1em 0;
-    font-size: 18px;
+ 	font-weight: 300;
+	text-align: left;
+	margin: 1em 0;
+	font-size: 1.35em;
 }
 
 tbody {
@@ -1280,34 +1284,43 @@ input[type="button"]:hover,input[type="submit"]:hover {
     transition: all 0.3s ease 0.3s;
 }
 
-input[type="text"],input[type="search"],input[type="email"],input[type="password"],select {
+input[type="text"],input[type="search"],input[type="email"],input[type="password"],select,textarea {
 	font-family: "future", sans-serif;
-    font-weight: 300;
-    box-sizing: border-box;
-    height: 30px;
-    padding: 2px 8px;
-    background: #464a58;
-    border: 0;
-    color: rgba(255,255,255,.5);
-    text-decoration: none;
+	box-sizing: border-box;
+	height: 30px;
+	padding: 2px 8px;
+	background: none;
+	border: 0;
+	color: rgba(255,255,255,.3);
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255,255,255,.3);
 }
 
-input[type="text"]:focus,input[type="search"]:focus,input[type="email"]:focus,input[type="password"]:focus,select:focus {
+input[type="text"]:focus,input[type="search"]:focus,input[type="email"]:focus,input[type="password"]:focus,select:focus,textarea:focus {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,1);
+    transition: all 0.15s ease 0.15s;
 }
 
 select {
    -webkit-appearance: none;
    -moz-appearance: none;
 }
-
+select:focus {
+    background: none;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,1);
+    transition: all 0.15s ease 0.15s;
+}
+option {
+    background: #3C4452;
+    color: #fff;
+}
 textarea {
-font-family: "future", sans-serif;
-    min-height: 26px;
-    padding: 2px 8px;
-    background: #464a58;
-    border: 0;
+    min-height: 30px;
     height: auto;
-	color: #fff;
 }
 
 #preview, #contentpreview {
