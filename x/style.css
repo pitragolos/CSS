@@ -381,24 +381,28 @@ ul.thin {
 }
 
 div.alertbar.blend {
-	/* position: relative; */
-	/* margin: 0 20px; */
-	/* display: inline-block; */
-	/* margin: 0 20px; */
-	/* background: #353C48; */
-	/* padding: 4px; */
-	/* border: 0; */
-	/* min-width: 3rem; */
-	/* padding: 0 4px; */
-	/* font-size: 1rem; */
-	/* font-weight: normal; */
-	/* line-height: 22px; */
-	/* -webkit-box-sizing: border-box; */
-	/* box-sizing: border-box; */
+
 }
 
 .alertbar:not(.blend):before {
-	content: " New ";
+    content: " New ";
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    margin: 0 5px 0 -4px;
+    padding: 0px 3px;
+    border: 0;
+    font-weight: 300;
+    background-color: #ee6e73;
+    font-size: 1rem;
+    line-height: 28px;
+    height: 28px;
+    box-sizing: border-box;
+}
+
+
+/*div.alertbar.blend:before {
+	 content: " Tools "; 
 	color: #fff;
 	position: relative;
 	display: inline-block;
@@ -411,24 +415,7 @@ div.alertbar.blend {
 	line-height: 22px;
 	height: 22px;
 	box-sizing: border-box;
-}
-
-
-div.alertbar.blend:before {
-	/* content: " Tools "; */
-	color: #fff;
-	position: relative;
-	display: inline-block;
-	margin: 0 5px 0 -4px;
-	padding: 0px 3px;
-	border: 0;
-	font-weight: 300;
-	background-color: #ee6e73;
-	font-size: 1rem;
-	line-height: 22px;
-	height: 22px;
-	box-sizing: border-box;
-}
+}*/
 
 
 .alertbar a:hover {
