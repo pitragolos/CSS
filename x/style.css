@@ -365,25 +365,11 @@ ul.thin {
     position: relative;
 }
 
-.alertbar, .alertbar.blend {
-    text-shadow: none;
-    margin-right: 5px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 0.95em;
-    margin: 0px auto;
-    padding: 10px;
-    border: 0;
-	display: inline-block;
-}
-
-.alertbar:not(.blend) {
+.alertbar, alertbar.blend {
     position: relative;
-    margin: 0 20px;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 auto;
     background: #353C48;
-    padding: 4px;
     border: 0;
     min-width: 3rem;
     padding: 0 4px;
@@ -395,54 +381,53 @@ ul.thin {
 }
 
 div.alertbar.blend {
-	position: relative;
-    margin: 0;
-    display: inline-block;
-    margin: 0;
-    background: #353C48;
-    padding: 4px;
-    border: 0;
-    min-width: 3rem;
-    padding: 0 4px;
-    font-size: 1rem;
-    font-weight: normal;
-    line-height: 22px;
-    height: 22px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	/* position: relative; */
+	/* margin: 0 20px; */
+	/* display: inline-block; */
+	/* margin: 0 20px; */
+	/* background: #353C48; */
+	/* padding: 4px; */
+	/* border: 0; */
+	/* min-width: 3rem; */
+	/* padding: 0 4px; */
+	/* font-size: 1rem; */
+	/* font-weight: normal; */
+	/* line-height: 22px; */
+	/* -webkit-box-sizing: border-box; */
+	/* box-sizing: border-box; */
 }
 
 .alertbar:not(.blend):before {
 	content: " New ";
-    color: #fff;
-    position: relative;
-    display: inline-block;
-    margin: 0 5px 0 -4px;
-    padding: 0px 3px;
-    border: 0;
-    font-weight: 300;
-    background-color: #ee6e73;
-    font-size: 1rem;
-    line-height: 22px;
-    height: 22px;
-    box-sizing: border-box;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	margin: 0 5px 0 -4px;
+	padding: 0px 3px;
+	border: 0;
+	font-weight: 300;
+	background-color: #ee6e73;
+	font-size: 1rem;
+	line-height: 22px;
+	height: 22px;
+	box-sizing: border-box;
 }
 
 
 div.alertbar.blend:before {
-	content: " Tools ";
-    color: #fff;
-    position: relative;
-    display: inline-block;
-    margin: 0 5px 0 -4px;
-    padding: 0px 3px;
-    border: 0;
-    font-weight: 300;
-    background-color: #ee6e73;
-    font-size: 1rem;
-    line-height: 22px;
-    height: 22px;
-    box-sizing: border-box;
+	/* content: " Tools "; */
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	margin: 0 5px 0 -4px;
+	padding: 0px 3px;
+	border: 0;
+	font-weight: 300;
+	background-color: #ee6e73;
+	font-size: 1rem;
+	line-height: 22px;
+	height: 22px;
+	box-sizing: border-box;
 }
 
 
@@ -719,6 +704,10 @@ td, th {
     max-width: 380px !important;
     text-overflow: ellipsis !important;
     overflow: hidden;
+}
+
+td.label {
+	width: 240px;
 }
 
 #seedbox table > tbody > tr > td {
