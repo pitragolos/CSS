@@ -132,7 +132,7 @@ ul.thin {
 /* Layout (Every page) */
 
 #wrapper {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 #content {
@@ -150,7 +150,7 @@ ul.thin {
 	color: #fff;
     font-size: 1.35em;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin: 10px;
 }
 
 .linkbox {
